@@ -1,0 +1,3 @@
+/health/body-aches
+/health/depression/postpartum-depression
+/health/fibromyalgia

@@ -1,0 +1,477 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 31 13:42:41 PDT 2017</td>
+</tr>
+<tr><td>Total time:</td><td>49 seconds (49636 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cssvalues.VerifyStyles.getCSSStyles()'><b>getCSSStyles</b><br>Test class: cssvalues.VerifyStyles<br/>
+<a href="#Output-424398527" onClick='toggleBox("Output-424398527", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-424398527" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-424398527">
+DEVICE=desktop
+<br/>
+Styles for Heading H1 are ------------------------- <br/>
+Font Size -> 48px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> Tiempos-Medium<br/>
+Used Font Family -> Tiempos-Medium<br/>
+font-weight -> 500 ; <br/>
+height -> 52px ; <br/>
+padding -> 0px<br/>
+Line-height -> 52.8px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Copyright text are ------------------------- <br/>
+Font Size -> 14px<br/>
+RGb Font Color -> rgba(128, 129, 132, 1) ; <br/>
+Font Color -> #808184<br/>
+Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 152px ; <br/>
+padding -> 0px<br/>
+Line-height -> 19.6px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Header Newsletter are ------------------------- <br/>
+Font Size -> 16px<br/>
+RGb Font Color -> rgba(128, 129, 132, 1) ; <br/>
+Font Color -> #808184<br/>
+Font Family List -> ProximaNovaCond-SemiBold<br/>
+Used Font Family -> ProximaNovaCond-SemiBold<br/>
+font-weight -> normal ; <br/>
+height -> 22px ; <br/>
+padding -> 0px<br/>
+Line-height -> 22.4px<br/>
+Font Text Alignment -> left<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Header Logo are ------------------------- <br/>
+Font Size -> 18px<br/>
+RGb Font Color -> rgba(5, 162, 211, 1) ; <br/>
+Font Color -> #05a2d3<br/>
+Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 70px ; <br/>
+padding -> 10px 0px<br/>
+Line-height -> 25.2px<br/>
+Font Text Alignment -> center<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Hamburger menu are ------------------------- <br/>
+Font Size -> 18px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 70px ; <br/>
+padding -> 0px<br/>
+Line-height -> 70px<br/>
+Font Text Alignment -> center<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Heading H2 are ------------------------- <br/>
+Font Size -> 38px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> ProximaNova-Bold<br/>
+Used Font Family -> ProximaNova-Bold<br/>
+font-weight -> normal ; <br/>
+height -> 41px ; <br/>
+padding -> 0px<br/>
+Line-height -> 41.8px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Newsletter footer are ------------------------- <br/>
+Font Size -> 30px<br/>
+RGb Font Color -> rgba(5, 162, 211, 1) ; <br/>
+Font Color -> #05a2d3<br/>
+Font Family List -> Tiempos-Medium<br/>
+Used Font Family -> Tiempos-Medium<br/>
+font-weight -> normal ; <br/>
+height -> 42px ; <br/>
+padding -> 0px<br/>
+Line-height -> 42px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Newsletter input box are ------------------------- <br/>
+Font Size -> 16px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> ProximaNova<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 24px ; <br/>
+padding -> 1px 0px<br/>
+Line-height -> 22.4px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(247, 247, 247, 1)<br/>
+
+<br/>
+Styles for Newsletter submit btn are ------------------------- <br/>
+Font Size -> 14px<br/>
+RGb Font Color -> rgba(255, 255, 255, 1) ; <br/>
+Font Color -> #ffffff<br/>
+Font Family List -> ProximaNova-SemiBold<br/>
+Used Font Family -> ProximaNova-SemiBold<br/>
+font-weight -> normal ; <br/>
+height -> 30px ; <br/>
+padding -> 9px 18px<br/>
+Line-height -> 10.8px<br/>
+Font Text Alignment -> center<br/>
+background color -> rgba(5, 162, 211, 1)<br/>
+
+<br/>
+----------------------------------------------------------------------------------------------------<br/>
+DEVICE=Google Nexus 5
+<br/>
+Styles for Heading H1 are ------------------------- <br/>
+Font Size -> 32px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> Tiempos-Medium<br/>
+Used Font Family -> Tiempos-Medium<br/>
+font-weight -> 500 ; <br/>
+height -> 35px ; <br/>
+padding -> 0px<br/>
+Line-height -> 35.2px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Copyright text are ------------------------- <br/>
+Font Size -> 14px<br/>
+RGb Font Color -> rgba(128, 129, 132, 1) ; <br/>
+Font Color -> #808184<br/>
+Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 95px ; <br/>
+padding -> 0px<br/>
+Line-height -> 19.6px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Header Newsletter are ------------------------- <br/>
+Font Size -> 12px<br/>
+RGb Font Color -> rgba(128, 129, 132, 1) ; <br/>
+Font Color -> #808184<br/>
+Font Family List -> ProximaNovaCond-SemiBold<br/>
+Used Font Family -> ProximaNovaCond-SemiBold<br/>
+font-weight -> normal ; <br/>
+height -> auto ; <br/>
+padding -> 0px<br/>
+Line-height -> 16.8px<br/>
+Font Text Alignment -> left<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Header Logo are ------------------------- <br/>
+Font Size -> 17px<br/>
+RGb Font Color -> rgba(5, 162, 211, 1) ; <br/>
+Font Color -> #05a2d3<br/>
+Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 50px ; <br/>
+padding -> 10px 0px<br/>
+Line-height -> 23.8px<br/>
+Font Text Alignment -> left<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Hamburger menu are ------------------------- <br/>
+Font Size -> 17px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 50px ; <br/>
+padding -> 0px<br/>
+Line-height -> 50px<br/>
+Font Text Alignment -> center<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Heading H2 are ------------------------- <br/>
+Font Size -> 24px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> ProximaNova-Bold<br/>
+Used Font Family -> ProximaNova-Bold<br/>
+font-weight -> normal ; <br/>
+height -> 26px ; <br/>
+padding -> 0px<br/>
+Line-height -> 26.4px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Newsletter footer are ------------------------- <br/>
+Font Size -> 24px<br/>
+RGb Font Color -> rgba(255, 255, 255, 1) ; <br/>
+Font Color -> #ffffff<br/>
+Font Family List -> Tiempos-Medium<br/>
+Used Font Family -> Tiempos-Medium<br/>
+font-weight -> normal ; <br/>
+height -> 53px ; <br/>
+padding -> 20px 0px 0px<br/>
+Line-height -> 33.6px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Newsletter input box are ------------------------- <br/>
+Font Size -> 16px<br/>
+RGb Font Color -> rgba(255, 255, 255, 1) ; <br/>
+Font Color -> #ffffff<br/>
+Font Family List -> ProximaNova<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 24px ; <br/>
+padding -> 1px 0px<br/>
+Line-height -> 22.4px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(5, 162, 211, 1)<br/>
+
+<br/>
+Styles for Newsletter submit btn are ------------------------- <br/>
+Font Size -> 14px<br/>
+RGb Font Color -> rgba(64, 64, 65, 1) ; <br/>
+Font Color -> #404041<br/>
+Font Family List -> ProximaNova-SemiBold<br/>
+Used Font Family -> ProximaNova-SemiBold<br/>
+font-weight -> normal ; <br/>
+height -> 30px ; <br/>
+padding -> 8.5px 17px<br/>
+Line-height -> 10.2px<br/>
+Font Text Alignment -> center<br/>
+background color -> rgba(255, 255, 255, 1)<br/>
+
+<br/>
+----------------------------------------------------------------------------------------------------<br/>
+DEVICE=Apple iPad
+<br/>
+Styles for Heading H1 are ------------------------- <br/>
+Font Size -> 48px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> Tiempos-Medium<br/>
+Used Font Family -> Tiempos-Medium<br/>
+font-weight -> 500 ; <br/>
+height -> 52px ; <br/>
+padding -> 0px<br/>
+Line-height -> 52.8px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Copyright text are ------------------------- <br/>
+Font Size -> 14px<br/>
+RGb Font Color -> rgba(128, 129, 132, 1) ; <br/>
+Font Color -> #808184<br/>
+Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 72px ; <br/>
+padding -> 0px<br/>
+Line-height -> 19.6px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Header Newsletter are ------------------------- <br/>
+Font Size -> 16px<br/>
+RGb Font Color -> rgba(128, 129, 132, 1) ; <br/>
+Font Color -> #808184<br/>
+Font Family List -> ProximaNovaCond-SemiBold<br/>
+Used Font Family -> ProximaNovaCond-SemiBold<br/>
+font-weight -> normal ; <br/>
+height -> 22px ; <br/>
+padding -> 0px<br/>
+Line-height -> 22.4px<br/>
+Font Text Alignment -> left<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Header Logo are ------------------------- <br/>
+Font Size -> 18px<br/>
+RGb Font Color -> rgba(5, 162, 211, 1) ; <br/>
+Font Color -> #05a2d3<br/>
+Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 65px ; <br/>
+padding -> 15px 0px 10px<br/>
+Line-height -> 25.2px<br/>
+Font Text Alignment -> center<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Hamburger menu are ------------------------- <br/>
+Font Size -> 18px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 70px ; <br/>
+padding -> 0px<br/>
+Line-height -> 70px<br/>
+Font Text Alignment -> center<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Heading H2 are ------------------------- <br/>
+Font Size -> 38px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> ProximaNova-Bold<br/>
+Used Font Family -> ProximaNova-Bold<br/>
+font-weight -> normal ; <br/>
+height -> 41px ; <br/>
+padding -> 0px<br/>
+Line-height -> 41.8px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Newsletter footer are ------------------------- <br/>
+Font Size -> 30px<br/>
+RGb Font Color -> rgba(5, 162, 211, 1) ; <br/>
+Font Color -> #05a2d3<br/>
+Font Family List -> Tiempos-Medium<br/>
+Used Font Family -> Tiempos-Medium<br/>
+font-weight -> normal ; <br/>
+height -> 42px ; <br/>
+padding -> 0px<br/>
+Line-height -> 42px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(0, 0, 0, 0)<br/>
+
+<br/>
+Styles for Newsletter input box are ------------------------- <br/>
+Font Size -> 16px<br/>
+RGb Font Color -> rgba(35, 31, 32, 1) ; <br/>
+Font Color -> #231f20<br/>
+Font Family List -> ProximaNova<br/>
+Used Font Family -> ProximaNova<br/>
+font-weight -> normal ; <br/>
+height -> 24px ; <br/>
+padding -> 1px 0px<br/>
+Line-height -> 22.4px<br/>
+Font Text Alignment -> start<br/>
+background color -> rgba(247, 247, 247, 1)<br/>
+
+<br/>
+Styles for Newsletter submit btn are ------------------------- <br/>
+Font Size -> 14px<br/>
+RGb Font Color -> rgba(255, 255, 255, 1) ; <br/>
+Font Color -> #ffffff<br/>
+Font Family List -> ProximaNova-SemiBold<br/>
+Used Font Family -> ProximaNova-SemiBold<br/>
+font-weight -> normal ; <br/>
+height -> 30px ; <br/>
+padding -> 9px 18px<br/>
+Line-height -> 10.8px<br/>
+Font Text Alignment -> center<br/>
+background color -> rgba(5, 162, 211, 1)<br/>
+
+<br/>
+----------------------------------------------------------------------------------------------------<br/>
+</div>
+</td>
+<td></td>
+<td>49</td>
+<td>cssvalues.VerifyStyles@59ec2012</td></tr>
+</table><p>
+</body>
+</html>

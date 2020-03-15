@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="2" hostname="prodigy22-PC" name="smoketest.TestSuitelivestrong" skipped="0" tests="6" time="263.859" timestamp="2017-10-18T08:32:24">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="ant.file.livestrong" value="E:\Livestrong\build.xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="lib" value="E:\Livestrong\lib" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes" />
+    <property name="test.reports.livestrongstage02" value="E:\Livestrong\reports\livestrongstage02" />
+    <property name="test.reports.livestrongstage01" value="E:\Livestrong\reports\livestrongstage01" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\apache-ant-1.9.4" />
+    <property name="java.runtime.version" value="1.8.0_131-b11" />
+    <property name="user.name" value="prodigy21" />
+    <property name="height" value="778" />
+    <property name="user.language" value="en" />
+    <property name="build" value="E:\Livestrong\build" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin" />
+    <property name="ant.project.default-target" value="livestrong_prod" />
+    <property name="ant.project.name" value="livestrong" />
+    <property name="java.version" value="1.8.0_131" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="E:\Livestrong\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="test.reports" value="E:\Livestrong\reports" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.131-b11" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\apache-ant-1.9.4\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\prodigy21" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\app\prodigy21\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\BINN;D:\apache-ant-1.9.4\bin;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Java\jdk1.7.0_79\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\lib;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner smoketest.TestSuitelivestrong skipNonTests=false filtertrace=false haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Livestrong\reports\livestrongstage02\TEST-smoketest.TestSuitelivestrong.xml crashfile=E:\Livestrong\junitvmwatcher7281611400763047652.properties propsfile=E:\Livestrong\junit4433070055068158646.properties" />
+    <property name="java.class.path" value="E:\Livestrong\lib\selenium-2.46.0\selenium-java-2.53.0-srcs.jar;E:\Livestrong\lib\selenium-2.46.0\selenium-java-2.53.0.jar;E:\Livestrong\lib\selenium-2.46.0\libs\apache-mime4j-0.6.jar;E:\Livestrong\lib\selenium-2.46.0\libs\bsh-2.0b4.jar;E:\Livestrong\lib\selenium-2.46.0\libs\cglib-nodep-2.1_3.jar;E:\Livestrong\lib\selenium-2.46.0\libs\commons-codec-1.10.jar;E:\Livestrong\lib\selenium-2.46.0\libs\commons-exec-1.3.jar;E:\Livestrong\lib\selenium-2.46.0\libs\commons-io-2.4.jar;E:\Livestrong\lib\selenium-2.46.0\libs\commons-logging-1.2.jar;E:\Livestrong\lib\selenium-2.46.0\libs\gson-2.3.1.jar;E:\Livestrong\lib\selenium-2.46.0\libs\guava-19.0.jar;E:\Livestrong\lib\selenium-2.46.0\libs\hamcrest-core-1.3.jar;E:\Livestrong\lib\selenium-2.46.0\libs\hamcrest-library-1.3.jar;E:\Livestrong\lib\selenium-2.46.0\libs\httpclient-4.5.1.jar;E:\Livestrong\lib\selenium-2.46.0\libs\httpcore-4.4.3.jar;E:\Livestrong\lib\selenium-2.46.0\libs\httpmime-4.5.jar;E:\Livestrong\lib\selenium-2.46.0\libs\jcommander-1.48.jar;E:\Livestrong\lib\selenium-2.46.0\libs\jna-4.1.0.jar;E:\Livestrong\lib\selenium-2.46.0\libs\jna-platform-4.1.0.jar;E:\Livestrong\lib\selenium-2.46.0\libs\junit-4.12.jar;E:\Livestrong\lib\selenium-2.46.0\libs\netty-3.5.7.Final.jar;E:\Livestrong\lib\selenium-2.46.0\libs\phantomjsdriver-1.2.1.jar;E:\Livestrong\lib\selenium-2.46.0\libs\testng-6.9.9.jar;E:\Livestrong\build\classes;D:\apache-ant-1.9.4\lib\ant-launcher.jar;D:\apache-ant-1.9.4\lib\ant.jar;D:\apache-ant-1.9.4\lib\ant-junit.jar;D:\apache-ant-1.9.4\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="build.classes" value="E:\Livestrong\build\classes" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\PRODIG~1\AppData\Local\Temp\" />
+    <property name="test.src" value="E:\Livestrong\src" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="test.reports.livestrongprod" value="E:\Livestrong\reports\livestrongprod" />
+    <property name="width" value="1240" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="E:\Livestrong" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="E:\Livestrong" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="D:\apache-ant-1.9.4\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="ant.file.type.livestrong" value="file" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="livestrong_stage02" />
+  </properties>
+  <testcase classname="smoketest.LivestrongTest" name="Tabbedarticle" time="54.09">
+    <failure message="&apos;Read This Next&apos; section title is missing on Tabbed Article Page org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document&#xa;  (Session info: chrome=61.0.3163.100)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 41 milliseconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#xa;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;&#xa;System info: host: &apos;prodigy22-PC&apos;, ip: &apos;192.168.1.151&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\PRODIG~1\AppData\Local\Temp\scoped_dir9624_30261}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 9d13426377651ce950a6549c225d4b30&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: &apos;Read This Next&apos; section title is missing on Tabbed Article Page org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;prodigy22-PC&apos;, ip: &apos;192.168.1.151&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\PRODIG~1\AppData\Local\Temp\scoped_dir9624_30261}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9d13426377651ce950a6549c225d4b30
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at smoketest.LivestrongTest.Tabbedarticle(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)
+</failure>
+  </testcase>
+  <testcase classname="smoketest.LivestrongTest" name="VideoPage" time="29.537" />
+  <testcase classname="smoketest.LivestrongTest" name="TOCarticle" time="61.837">
+    <failure message="Centerwell links not working properly on TOC Page: http://trs:radioshack@staging.livestrong.com/healthline/health/multiple-sclerosis/managing&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Centerwell links not working properly on TOC Page: http://trs:radioshack@staging.livestrong.com/healthline/health/multiple-sclerosis/managing
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at smoketest.LivestrongTest.TOCarticle(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)
+</failure>
+  </testcase>
+  <testcase classname="smoketest.LivestrongTest" name="Assessment" time="41.992" />
+  <testcase classname="smoketest.LivestrongTest" name="Slideshow" time="24.167" />
+  <testcase classname="smoketest.LivestrongTest" name="Standardarticle" time="47.721" />
+  <system-out><![CDATA[Tabbed Article...
+Desclaimer Widget exist on Tabbed Article Page http://trs:radioshack@staging.livestrong.com/healthline/health/ulcerative-colitis-take-control/paleo-diet
+Title exist on Tabbed Article Page http://trs:radioshack@staging.livestrong.com/healthline/health/ulcerative-colitis-take-control/paleo-diet
+Written Info exist on Tabbed Article Page http://trs:radioshack@staging.livestrong.com/healthline/health/ulcerative-colitis-take-control/paleo-diet
+4
+Video Page...
+Title exist on Video Article Page http://trs:radioshack@staging.livestrong.com/healthline/video/ankylosing-spondylitis-more-than-back-pain
+Content exist on Health Video Article page http://trs:radioshack@staging.livestrong.com/healthline/video/ankylosing-spondylitis-more-than-back-pain
+TOC Page...
+Desclaimer Widget exist on TOC Page http://trs:radioshack@staging.livestrong.com/healthline/health/multiple-sclerosis/managing
+Title exist on TOC Page http://trs:radioshack@staging.livestrong.com/healthline/health/multiple-sclerosis/managing
+http://hl.livestrong.com/hlcmsresource/images/topic_centers/multiple_sclerosis/194x105_MSEventpage_banner-1.jpg
+Assessment Page...
+Disclaimer exist on Assessment Page http://trs:radioshack@staging.livestrong.com/healthline/health-assessments/ms-checkup
+Title exist on Assessment Page http://trs:radioshack@staging.livestrong.com/healthline/health-assessments/ms-checkup
+Video thumbanail is displayed on Assessment pagehttp://trs:radioshack@staging.livestrong.com/healthline/health-assessments/ms-checkup
+Nextbutton is displayed on Assessment pagehttp://trs:radioshack@staging.livestrong.com/healthline/health-assessments/ms-checkup
+view table of contents is displayed on Assessment Pagehttp://trs:radioshack@staging.livestrong.com/healthline/health-assessments/ms-checkup
+progress bar is displayed on Assessment Pagehttp://trs:radioshack@staging.livestrong.com/healthline/health-assessments/ms-checkup
+Slideshow Page...
+Title exist on Slideshow Page http://trs:radioshack@staging.livestrong.com/healthline/health-slideshow/hepatitis-c-your-support-options
+Disclaimer exist on Slideshow Page http://trs:radioshack@staging.livestrong.com/healthline/health-slideshow/hepatitis-c-your-support-options
+Standard Article...
+Desclaimer Widget exist on Standard Article Page http://trs:radioshack@staging.livestrong.com/healthline/health/hypothyroidism/exercise-plan
+Title exist on Standard Article Page http://trs:radioshack@staging.livestrong.com/healthline/health/hypothyroidism/exercise-plan
+Written Info exist on Standard Article Page http://trs:radioshack@staging.livestrong.com/healthline/health/hypothyroidism/exercise-plan
+Article Resource Overlay is opened
+Article Resource Overlay is closed
+'Read This Next' section title is displayed on Standard Article Page http://trs:radioshack@staging.livestrong.com/healthline/health/hypothyroidism/exercise-plan
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 5703
+Only local connections are allowed.
+]]></system-err>
+</testsuite>

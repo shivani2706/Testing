@@ -1,0 +1,2227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[DEVICE=desktop
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Heading H1 are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 48px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> 500 ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 52px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 52.8px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Copyright text are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 14px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #808184]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 152px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 19.6px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Header Newsletter are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 16px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #808184]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNovaCond-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNovaCond-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 22px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 22.4px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> left]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Header Logo are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 18px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(5, 162, 211, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #05a2d3]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 70px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 10px 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 25.2px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> center]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Hamburger menu are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 18px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 70px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 70px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> center]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Heading H2 are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 38px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova-Bold]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova-Bold]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 41px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 41.8px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Newsletter footer are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 30px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(5, 162, 211, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #05a2d3]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 42px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 42px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Newsletter input box are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 16px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 24px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 1px 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 22.4px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(247, 247, 247, 1)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Newsletter submit btn are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 14px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(255, 255, 255, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #ffffff]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 30px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 9px 18px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 10.8px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> center]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(5, 162, 211, 1)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[DEVICE=Google Nexus 5
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Heading H1 are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 32px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> 500 ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 35px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 35.2px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Copyright text are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 14px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #808184]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 95px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 19.6px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Header Newsletter are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 12px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #808184]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNovaCond-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNovaCond-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> auto ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 16.8px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> left]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Header Logo are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 17px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(5, 162, 211, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #05a2d3]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 50px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 10px 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 23.8px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> left]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Hamburger menu are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 17px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 50px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 50px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> center]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Heading H2 are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 24px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova-Bold]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova-Bold]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 26px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 26.4px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Newsletter footer are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 24px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(255, 255, 255, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #ffffff]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 53px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 20px 0px 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 33.6px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Newsletter input box are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 16px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(255, 255, 255, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #ffffff]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 24px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 1px 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 22.4px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(5, 162, 211, 1)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Newsletter submit btn are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 14px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(64, 64, 65, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #404041]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 30px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 8.5px 17px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 10.2px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> center]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(255, 255, 255, 1)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[DEVICE=Apple iPad
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Heading H1 are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 48px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> 500 ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 52px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 52.8px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Copyright text are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 14px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #808184]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 72px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 19.6px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Header Newsletter are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 16px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #808184]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNovaCond-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNovaCond-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 22px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 22.4px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> left]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Header Logo are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 18px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(5, 162, 211, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #05a2d3]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 65px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 15px 0px 10px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 25.2px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> center]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Hamburger menu are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 18px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 70px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 70px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> center]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Heading H2 are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 38px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova-Bold]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova-Bold]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 41px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 41.8px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Newsletter footer are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 30px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(5, 162, 211, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #05a2d3]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> Tiempos-Medium]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 42px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 42px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Newsletter input box are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 16px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #231f20]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 24px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 1px 0px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 22.4px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> start]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(247, 247, 247, 1)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[Styles for Newsletter submit btn are ------------------------- ]]>
+    </line>
+    <line>
+      <![CDATA[Font Size -> 14px]]>
+    </line>
+    <line>
+      <![CDATA[RGb Font Color -> rgba(255, 255, 255, 1) ; ]]>
+    </line>
+    <line>
+      <![CDATA[Font Color -> #ffffff]]>
+    </line>
+    <line>
+      <![CDATA[Font Family List -> ProximaNova-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[Used Font Family -> ProximaNova-SemiBold]]>
+    </line>
+    <line>
+      <![CDATA[font-weight -> normal ; ]]>
+    </line>
+    <line>
+      <![CDATA[height -> 30px ; ]]>
+    </line>
+    <line>
+      <![CDATA[padding -> 9px 18px]]>
+    </line>
+    <line>
+      <![CDATA[Line-height -> 10.8px]]>
+    </line>
+    <line>
+      <![CDATA[Font Text Alignment -> center]]>
+    </line>
+    <line>
+      <![CDATA[background color -> rgba(5, 162, 211, 1)]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------------------------------------------------------------]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49636" started-at="2017-03-31T20:42:41Z" finished-at="2017-03-31T20:43:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49636" started-at="2017-03-31T20:42:41Z" finished-at="2017-03-31T20:43:30Z">
+      <class name="cssvalues.VerifyStyles">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cssvalues.VerifyStyles@59ec2012]" name="setUp" is-config="true" duration-ms="25" started-at="2017-03-31T13:42:41Z" finished-at="2017-03-31T13:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getCSSStyles()[pri:0, instance:cssvalues.VerifyStyles@59ec2012]" name="getCSSStyles" duration-ms="49600" started-at="2017-03-31T13:42:41Z" finished-at="2017-03-31T13:43:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[DEVICE=desktop
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Heading H1 are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 48px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> 500 ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 52px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 52.8px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Copyright text are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 14px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #808184]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 152px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 19.6px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Header Newsletter are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 16px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #808184]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNovaCond-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNovaCond-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 22px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 22.4px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> left]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Header Logo are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 18px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(5, 162, 211, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #05a2d3]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 70px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 10px 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 25.2px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> center]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Hamburger menu are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 18px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 70px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 70px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> center]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Heading H2 are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 38px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova-Bold]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova-Bold]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 41px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 41.8px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Newsletter footer are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 30px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(5, 162, 211, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #05a2d3]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 42px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 42px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Newsletter input box are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 16px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 24px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 1px 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 22.4px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(247, 247, 247, 1)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Newsletter submit btn are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 14px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(255, 255, 255, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #ffffff]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 30px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 9px 18px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 10.8px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> center]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(5, 162, 211, 1)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[DEVICE=Google Nexus 5
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Heading H1 are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 32px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> 500 ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 35px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 35.2px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Copyright text are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 14px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #808184]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 95px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 19.6px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Header Newsletter are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 12px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #808184]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNovaCond-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNovaCond-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> auto ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 16.8px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> left]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Header Logo are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 17px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(5, 162, 211, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #05a2d3]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 50px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 10px 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 23.8px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> left]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Hamburger menu are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 17px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 50px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 50px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> center]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Heading H2 are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 24px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova-Bold]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova-Bold]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 26px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 26.4px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Newsletter footer are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 24px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(255, 255, 255, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #ffffff]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 53px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 20px 0px 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 33.6px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Newsletter input box are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 16px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(255, 255, 255, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #ffffff]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 24px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 1px 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 22.4px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(5, 162, 211, 1)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Newsletter submit btn are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 14px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(64, 64, 65, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #404041]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 30px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 8.5px 17px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 10.2px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> center]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(255, 255, 255, 1)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[DEVICE=Apple iPad
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Heading H1 are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 48px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> 500 ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 52px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 52.8px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Copyright text are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 14px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #808184]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 72px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 19.6px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Header Newsletter are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 16px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(128, 129, 132, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #808184]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNovaCond-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNovaCond-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 22px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 22.4px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> left]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Header Logo are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 18px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(5, 162, 211, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #05a2d3]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 65px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 15px 0px 10px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 25.2px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> center]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Hamburger menu are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 18px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 70px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 70px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> center]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Heading H2 are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 38px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova-Bold]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova-Bold]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 41px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 41.8px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Newsletter footer are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 30px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(5, 162, 211, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #05a2d3]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> Tiempos-Medium]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 42px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 42px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(0, 0, 0, 0)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Newsletter input box are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 16px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(35, 31, 32, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #231f20]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 24px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 1px 0px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 22.4px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> start]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(247, 247, 247, 1)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[Styles for Newsletter submit btn are ------------------------- ]]>
+            </line>
+            <line>
+              <![CDATA[Font Size -> 14px]]>
+            </line>
+            <line>
+              <![CDATA[RGb Font Color -> rgba(255, 255, 255, 1) ; ]]>
+            </line>
+            <line>
+              <![CDATA[Font Color -> #ffffff]]>
+            </line>
+            <line>
+              <![CDATA[Font Family List -> ProximaNova-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[Used Font Family -> ProximaNova-SemiBold]]>
+            </line>
+            <line>
+              <![CDATA[font-weight -> normal ; ]]>
+            </line>
+            <line>
+              <![CDATA[height -> 30px ; ]]>
+            </line>
+            <line>
+              <![CDATA[padding -> 9px 18px]]>
+            </line>
+            <line>
+              <![CDATA[Line-height -> 10.8px]]>
+            </line>
+            <line>
+              <![CDATA[Font Text Alignment -> center]]>
+            </line>
+            <line>
+              <![CDATA[background color -> rgba(5, 162, 211, 1)]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCSSStyles -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cssvalues.VerifyStyles@59ec2012]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-03-31T13:43:30Z" finished-at="2017-03-31T13:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cssvalues.VerifyStyles -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

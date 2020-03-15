@@ -1,0 +1,328 @@
+
+<!-- ====================================================================== 
+     June 27, 2011 10:20:41 AM                                                        
+  
+     sfcweb01 : To run short regression for drugs and partners against sfc-web01
+                   
+     ktu                                                                
+     ====================================================================== -->
+<project name="Drugs" default="drugs_prod" basedir=".">
+	<description>
+            This project has 3 targets, production, stage01 and stage02
+            and the default target is production.    	
+    </description>
+	<property name="test.src" location="src" />
+	<property name="build" location="build" />
+	<property name="build.classes" location="build/classes" />
+	<property name="lib" location="${basedir}/lib" />
+	<property name="test.reports" location="reports" />
+
+
+	<property name="test.reports.drugsprod" location="reports/drugsprod" />
+	<property name="test.reports.drugsstage01" location="reports/drugsstage01" />
+	<property name="test.reports.drugsstage02" location="reports/drugsstage02" />
+	<!--<property name="test.reports.sfcweb01" location="reports/sfcweb01" />
+	<property name="test.reports.njcweb01" location="reports/njcweb01" />-->
+
+	
+
+
+
+	<property name="width" value="1240" />
+	<property name="height" value="778" />
+
+
+	<fileset id="junit4.lib" dir="${lib}">
+		<include name="*.jar" />
+	</fileset>
+	<fileset id="selenium.client.lib" dir="${lib}/selenium-2.46.0">
+		<include name="*.jar" />
+	</fileset>
+	<fileset id="webdriver.lib" dir="${lib}/selenium-2.46.0/libs">
+		<include name="*.jar" />
+	</fileset>
+
+	<path id="compile.classpath">
+		<fileset refid="junit4.lib" />
+		<fileset refid="selenium.client.lib" />
+		<fileset refid="webdriver.lib" />
+	</path>
+	
+
+	
+
+	<target name="drugs_prod" depends="compiledrugsprod">
+		<description>
+		          "To test drugs.com"
+		        </description>
+		<junit fork="yes" filtertrace="off" failureproperty="test.failed">
+			<jvmarg line="-Xmx1024m" />
+			<env key="URL" value="http://www.drugs.com" />
+			<env key="BROWSER_WIDTH" value="${width}" />
+			<env key="BROWSER_HEIGHT" value="${height}" />
+			<env key="DRIVER" value="chrome" />
+			
+			<formatter type="xml" />
+			<classpath>
+				<path refid="compile.classpath" />
+				<pathelement path="${build.classes}" />
+			</classpath>
+			<batchtest todir="${test.reports.drugsprod}">
+				<fileset dir="${build.classes}" includes="**/TestSuitedrugs.class" />
+			</batchtest>
+		</junit>
+		<junitreport todir="${test.reports.drugsprod}">
+			<fileset dir="${test.reports.drugsprod}">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${test.reports.drugsprod}/html" />
+		</junitreport>
+	</target>
+
+
+	<target name="drugs_stage01" depends="compiledrugsstage01">
+		<description>
+		          "To test drugs.com"
+		        </description>
+		<junit fork="yes" filtertrace="off" failureproperty="test.failed">
+			<jvmarg line="-Xmx1024m" />
+			<env key="URL" value="http://hl.drugs.com" />
+			<env key="BROWSER_WIDTH" value="${width}" />
+			<env key="BROWSER_HEIGHT" value="${height}" />
+			<env key="DRIVER" value="chrome" />
+			
+			<formatter type="xml" />
+			<classpath>
+				<path refid="compile.classpath" />
+				<pathelement path="${build.classes}" />
+			</classpath>
+			<batchtest todir="${test.reports.drugsstage01}">
+				<fileset dir="${build.classes}" includes="**/TestSuitedrugs.class" />
+			</batchtest>
+		</junit>
+		<junitreport todir="${test.reports.drugsstage01}">
+			<fileset dir="${test.reports.drugsstage01}">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${test.reports.drugsstage01}/html" />
+		</junitreport>
+	</target>
+
+<target name="drugs_stage02" depends="compiledrugsstage02">
+		<description>
+		          "To test drugs.com"
+		        </description>
+		<junit fork="yes" filtertrace="off" failureproperty="test.failed">
+			<jvmarg line="-Xmx1024m" />
+			<env key="URL" value="http://www.drugs.com/health/testing/generic-9/?url=http://hl-qa.drugs.com" />
+			<env key="BROWSER_WIDTH" value="${width}" />
+			<env key="BROWSER_HEIGHT" value="${height}" />
+			<env key="DRIVER" value="chrome" />
+			
+			<formatter type="xml" />
+			<classpath>
+				<path refid="compile.classpath" />
+				<pathelement path="${build.classes}" />
+			</classpath>
+			<batchtest todir="${test.reports.drugsstage02}">
+				<fileset dir="${build.classes}" includes="**/TestSuitedrugs.class" />
+			</batchtest>
+		</junit>
+		<junitreport todir="${test.reports.drugsstage02}">
+			<fileset dir="${test.reports.drugsstage02}">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${test.reports.drugsstage02}/html" />
+		</junitreport>
+	</target>
+
+	<!--<target name="sfcweb01" depends="compilesfcweb01">
+			<description>
+	          "To test sfc-web01.healtdrugsine.com"
+	        </description>
+			<junit fork="yes" filtertrace="off" failureproperty="test.failed">
+				<jvmarg line="-Xmx1024m" />
+				<env key="URL" value="http://sfc-web01.healtdrugsine.com" />
+				<env key="DRIVER" value="chrome" />
+				<env key="BROWSER_WIDTH" value="${width}" />
+				<env key="BROWSER_HEIGHT" value="${height}" />
+			
+				<formatter type="xml" />
+				<classpath>
+					<path refid="compile.classpath" />
+					<pathelement path="${build.classes}" />
+				</classpath>
+				<batchtest todir="${test.reports.sfcweb01}">
+					<fileset dir="${build.classes}" includes="**/TestSuitedrugs.class" />
+				</batchtest>
+			</junit>
+			<junitreport todir="${test.reports.sfcweb01}">
+				<fileset dir="${test.reports.sfcweb01}">
+					<include name="TEST-*.xml" />
+				</fileset>
+				<report format="frames" todir="${test.reports.sfcweb01}/html" />
+			</junitreport>
+		</target>-->
+	
+	<!-- <target name="njcweb01" depends="compilenjcweb01">
+			<description>
+	          "To test njc-web01.healtdrugsine.com"
+	        </description>
+			<junit fork="yes" filtertrace="off" failureproperty="test.failed">
+				<jvmarg line="-Xmx1024m" />
+				<env key="URL" value="http://njc-web01.healtdrugsine.com" />
+				<env key="DRIVER" value="chrome" />
+				<env key="BROWSER_WIDTH" value="${width}" />
+				<env key="BROWSER_HEIGHT" value="${height}" />
+				
+				<formatter type="xml" />
+				<classpath>
+					<path refid="compile.classpath" />
+					<pathelement path="${build.classes}" />
+				</classpath>
+				<batchtest todir="${test.reports.njcweb01}">
+					<fileset dir="${build.classes}" includes="**/TestSuitedrugs.class" />
+				</batchtest>
+			</junit>
+			<junitreport todir="${test.reports.njcweb01}">
+				<fileset dir="${test.reports.njcweb01}">
+					<include name="TEST-*.xml" />
+				</fileset>
+				<report format="frames" todir="${test.reports.njcweb01}/html" />
+			</junitreport>
+		</target>-->
+
+	
+	
+	
+	<target name="compiledrugsprod" depends="initdrugsprod">
+		<javac srcdir="${test.src}" destdir="${build.classes}" includeantruntime="false" classpathref="compile.classpath">
+		</javac>
+	</target>
+
+	<target name="compiledrugsstage02" depends="initdrugsstage02">
+		<javac srcdir="${test.src}" destdir="${build.classes}" includeantruntime="false" classpathref="compile.classpath">
+		</javac>
+	</target>
+	<target name="compiledrugsstage01" depends="initdrugsstage01">
+		<javac srcdir="${test.src}" destdir="${build.classes}" includeantruntime="false" classpathref="compile.classpath">
+		</javac>
+	</target>
+	<!--<target name="compilesfcweb01" depends="initsfcweb01">
+			<javac srcdir="${test.src}" destdir="${build.classes}" includeantruntime="false" classpathref="compile.classpath">
+			</javac>
+		</target>
+
+	<target name="compilenjcweb01" depends="initnjcweb01">
+			<javac srcdir="${test.src}" destdir="${build.classes}" includeantruntime="false" classpathref="compile.classpath">
+			</javac>
+		</target>-->
+	
+	
+
+	
+	<target name="initdrugsprod" depends="cleandrugsprod">
+		<mkdir dir="${build.classes}" />
+		<mkdir dir="${test.reports}" />
+		
+		<mkdir dir="${test.reports.drugsstage01}" />
+		<mkdir dir="${test.reports.drugsstage02}" />
+		<mkdir dir="${test.reports.drugsprod}" />
+		<!--<mkdir dir="${test.reports.sfcweb01}" />
+		<mkdir dir="${test.reports.njcweb01}" /> -->
+		
+	</target>
+
+	<target name="initdrugsstage02" depends="cleandrugsstage02">
+		<mkdir dir="${build.classes}" />
+		<mkdir dir="${test.reports}" />
+		<mkdir dir="${test.reports.drugsstage01}" />
+		<mkdir dir="${test.reports.drugsstage02}" />
+		<mkdir dir="${test.reports.drugsprod}" />
+		<!-- <mkdir dir="${test.reports.sfcweb01}" />
+				<mkdir dir="${test.reports.njcweb01}" /> -->
+		
+	</target>
+	<target name="initdrugsstage01" depends="cleandrugsstage01">
+		<mkdir dir="${build.classes}" />
+		<mkdir dir="${test.reports}" />
+		<mkdir dir="${test.reports.drugsstage01}" />
+		<mkdir dir="${test.reports.drugsstage02}" />
+		<mkdir dir="${test.reports.drugsprod}" />
+		<!-- <mkdir dir="${test.reports.sfcweb01}" />
+				<mkdir dir="${test.reports.njcweb01}" /> -->
+		
+	</target>
+	<!--<target name="initsfcweb01" depends="cleansfcweb01">
+			<mkdir dir="${build.classes}" />
+			<mkdir dir="${test.reports}" />
+			<mkdir dir="${test.reports.drugsstage01}" />
+			<mkdir dir="${test.reports.drugsstage02}" />
+			<mkdir dir="${test.reports.drugsprod}" />
+		    <mkdir dir="${test.reports.sfcweb01}" />
+		   <mkdir dir="${test.reports.njcweb01}" /> 
+			
+		</target>
+
+	<target name="initnjcweb01" depends="cleannjcweb01">
+				<mkdir dir="${build.classes}" />
+				<mkdir dir="${test.reports}" />
+				<mkdir dir="${test.reports.drugsstage01}" />
+				<mkdir dir="${test.reports.drugsstage02}" />
+				<mkdir dir="${test.reports.drugsprod}" />
+			    <mkdir dir="${test.reports.sfcweb01}" />
+			   <mkdir dir="${test.reports.njcweb01}" /> 
+				
+			</target>-->
+
+		
+	
+	
+	
+	
+	<target name="cleandrugsprod">
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${build}" />
+		</delete>
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${test.reports.drugsprod}" />
+		</delete>
+	</target>
+
+	<target name="cleandrugsstage02">
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${build}" />
+		</delete>
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${test.reports.drugsstage02}" />
+		</delete>
+	</target>
+	<target name="cleandrugsstage01">
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${build}" />
+		</delete>
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${test.reports.drugsstage01}" />
+		</delete>
+	</target>
+	<!--<target name="cleansfcweb01">
+			<delete includeEmptyDirs="true" failonerror="false">
+				<fileset dir="${build}" />
+			</delete>
+			<delete includeEmptyDirs="true" failonerror="false">
+				<fileset dir="${test.reports.sfcweb01}" />
+			</delete>
+		</target>
+	<target name="cleannjcweb01">
+				<delete includeEmptyDirs="true" failonerror="false">
+					<fileset dir="${build}" />
+				</delete>
+				<delete includeEmptyDirs="true" failonerror="false">
+					<fileset dir="${test.reports.njcweb01}" />
+				</delete>
+			</target> -->
+	
+
+	
+
+</project>

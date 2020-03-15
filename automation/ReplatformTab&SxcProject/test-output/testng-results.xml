@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="217321" started-at="2017-10-13T12:39:05Z" finished-at="2017-10-13T12:42:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="217321" started-at="2017-10-13T12:39:05Z" finished-at="2017-10-13T12:42:42Z">
+      <class name="replatformProject.TabbedNSxCReplatform">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:replatformProject.TabbedNSxCReplatform@10aca93]" name="startWebDriver" is-config="true" duration-ms="5598" started-at="2017-10-13T18:09:05Z" finished-at="2017-10-13T18:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="clearDriver()[pri:0, instance:replatformProject.TabbedNSxCReplatform@10aca93]" name="clearDriver" is-config="true" duration-ms="430" started-at="2017-10-13T18:09:10Z" finished-at="2017-10-13T18:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearDriver -->
+        <test-method status="FAIL" signature="RepatformTabbedArticle()[pri:0, instance:replatformProject.TabbedNSxCReplatform@10aca93]" name="RepatformTabbedArticle" duration-ms="207270" started-at="2017-10-13T18:09:11Z" finished-at="2017-10-13T18:12:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Problem in Copyright Text & Logo in Replatform Tabbed Article...org.openqa.selenium.TimeoutException: Timed out after 25 seconds waiting for visibility of element located by By.cssSelector: .css-m8gwmh .css-ahj660 img
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:03:33'
+System info: host: 'prodigy22-PC', ip: '192.168.1.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: b5205a8980d373cf76792b2e359b14c5
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\PRODIG~1\AppData\Local\Temp\scoped_dir3384_30736, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=61.0.3163.100, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Problem in Copyright Text & Logo in Replatform Tabbed Article...org.openqa.selenium.TimeoutException: Timed out after 25 seconds waiting for visibility of element located by By.cssSelector: .css-m8gwmh .css-ahj660 img
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:03:33'
+System info: host: 'prodigy22-PC', ip: '192.168.1.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: b5205a8980d373cf76792b2e359b14c5
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\PRODIG~1\AppData\Local\Temp\scoped_dir3384_30736, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=61.0.3163.100, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
+	at replatformProject.TabbedNSxCReplatform.RepatformTabbedArticle(TabbedNSxCReplatform.java:731)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RepatformTabbedArticle -->
+        <test-method status="PASS" signature="clearDriver()[pri:0, instance:replatformProject.TabbedNSxCReplatform@10aca93]" name="clearDriver" is-config="true" duration-ms="1336" started-at="2017-10-13T18:12:38Z" finished-at="2017-10-13T18:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearDriver -->
+        <test-method status="PASS" signature="SCReplatformPage()[pri:0, instance:replatformProject.TabbedNSxCReplatform@10aca93]" name="SCReplatformPage" duration-ms="2" started-at="2017-10-13T18:12:39Z" finished-at="2017-10-13T18:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SCReplatformPage -->
+        <test-method status="PASS" signature="endWebDriver()[pri:0, instance:replatformProject.TabbedNSxCReplatform@10aca93]" name="endWebDriver" is-config="true" duration-ms="2644" started-at="2017-10-13T18:12:39Z" finished-at="2017-10-13T18:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endWebDriver -->
+      </class> <!-- replatformProject.TabbedNSxCReplatform -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

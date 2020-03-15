@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="prodigy22-PC" name="SmokeTest.TestSuitehl" skipped="1" tests="16" time="1287.449" timestamp="2017-05-04T05:38:37">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="lib" value="E:\SmokeTest\lib" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\apache-ant-1.9.4" />
+    <property name="java.runtime.version" value="1.7.0_79-b15" />
+    <property name="user.name" value="prodigy21" />
+    <property name="height" value="778" />
+    <property name="user.language" value="en" />
+    <property name="build" value="E:\SmokeTest\build" />
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre\bin" />
+    <property name="ant.project.default-target" value="hl_prod" />
+    <property name="ant.project.name" value="healthline" />
+    <property name="java.version" value="1.7.0_79" />
+    <property name="user.timezone" value="" />
+    <property name="test.reports.hlstage02" value="E:\SmokeTest\reports\hlstage02" />
+    <property name="test.reports.hlstage01" value="E:\SmokeTest\reports\hlstage01" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre" />
+    <property name="ant.file.healthline" value="E:\SmokeTest\build.xml" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="E:\SmokeTest\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="test.reports" value="E:\SmokeTest\reports" />
+    <property name="ant.file.type.healthline" value="file" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.79-b02" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\apache-ant-1.9.4\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\prodigy21" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\prodigy21\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\BINN;D:\apache-ant-1.9.4\bin;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Java\jdk1.7.0_79\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner SmokeTest.TestSuitehl skipNonTests=false filtertrace=false haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\SmokeTest\reports\hlstage02\TEST-SmokeTest.TestSuitehl.xml crashfile=E:\SmokeTest\junitvmwatcher8557056407738767518.properties propsfile=E:\SmokeTest\junit1965462545638228018.properties" />
+    <property name="java.class.path" value="E:\SmokeTest\lib\selenium-java-2.52.0.jar;E:\SmokeTest\lib\selenium-server-standalone-2.52.0.jar;E:\SmokeTest\build\classes;D:\apache-ant-1.9.4\lib\ant-launcher.jar;D:\apache-ant-1.9.4\lib\ant.jar;D:\apache-ant-1.9.4\lib\ant-junit.jar;D:\apache-ant-1.9.4\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="test.reports.hlprod" value="E:\SmokeTest\reports\hlprod" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="build.classes" value="E:\SmokeTest\build\classes" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\PRODIG~1\AppData\Local\Temp\" />
+    <property name="test.src" value="E:\SmokeTest\src" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="width" value="1240" />
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="E:\SmokeTest" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="test.reports.njcweb01" value="E:\SmokeTest\reports\njcweb01" />
+    <property name="basedir" value="E:\SmokeTest" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="D:\apache-ant-1.9.4\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="test.reports.sfcweb01" value="E:\SmokeTest\reports\sfcweb01" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="hl_stage02" />
+  </properties>
+  <testcase classname="SmokeTest.HealthlineTestProd" name="Header" time="310.454" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="TopicDirectory" time="105.569" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="footer" time="11.711" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="testDM" time="45.27" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="sharebar" time="18.736" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="blogsdirectory" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="SmokeTest.HealthlineTestProd" name="feedbackWidget" time="83.034" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="Assessment" time="29.264" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="FDA" time="22.204">
+    <failure message="On http://sfc-stage02.healthline.com/health/fda Broken link http://sfc-stage02.healthline.com/health/fda/fda-strengthens-warning-heart-attack-stroke-risk-nonsteroidal-antiinflammatory-drugs status = 404&#xa;Title missing on http://sfc-stage02.healthline.com/health/fda/mammography-what-you-need-to-knoworg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;hl-title-area&quot;}&#xa;  (Session info: chrome=57.0.2987.133)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 41 milliseconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:03:33&apos;&#xa;System info: host: &apos;prodigy22-PC&apos;, ip: &apos;192.9.212.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;&#xa;*** Element info: {Using=class name, value=hl-title-area}&#xa;Session ID: 1a8cf42b0c0d287e49fedb8bd9052ff6&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\PRODIG~1\AppData\Local\Temp\scoped_dir5592_5180, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=57.0.2987.133, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: On http://sfc-stage02.healthline.com/health/fda Broken link http://sfc-stage02.healthline.com/health/fda/fda-strengthens-warning-heart-attack-stroke-risk-nonsteroidal-antiinflammatory-drugs status = 404
+Title missing on http://sfc-stage02.healthline.com/health/fda/mammography-what-you-need-to-knoworg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;hl-title-area&quot;}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:03:33&apos;
+System info: host: &apos;prodigy22-PC&apos;, ip: &apos;192.9.212.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=class name, value=hl-title-area}
+Session ID: 1a8cf42b0c0d287e49fedb8bd9052ff6
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\PRODIG~1\AppData\Local\Temp\scoped_dir5592_5180, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=57.0.2987.133, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at SmokeTest.HealthlineTestProd.FDA(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)
+</failure>
+  </testcase>
+  <testcase classname="SmokeTest.HealthlineTestProd" name="HOMETest" time="16.29" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="slideshowdirectory" time="158.404" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="newsdirectory" time="108.927" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="symptomsdirectory" time="81.007" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="ReferenceDirectory" time="78.238" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="drugsdirectory" time="72.62" />
+  <testcase classname="SmokeTest.HealthlineTestProd" name="videodirectory" time="139.152" />
+  <system-out><![CDATA[On Clicking Logo user redirceted to HL home page http://sfc-stage02.healthline.com/
+Topic and Tools nav butto exist on Global Header http://sfc-stage02.healthline.com/directory/topics
+37 links listed in Global Header Health Topics Nav Dropdown List http://sfc-stage02.healthline.com/directory/topics
+What Do You Want to Know About ADHD?
+Title exist on Health Topic page http://sfc-stage02.healthline.com/health/adhd?ref=global
+Content exist on Health Topic page http://sfc-stage02.healthline.com/health/adhd?ref=global
+Pill Identifier
+Title exist on Pill identifier http://sfc-stage02.healthline.com/pill-identifier?ref=global
+Newsletter Overlay Present...
+Try to locate Overlay
+Overlay Opened
+Search textbox exist in global header http://sfc-stage02.healthline.com/directory/topics
+On submitting search form , Search result page display 
+Title exist on Health Topics Directory page http://sfc-stage02.healthline.com/directory/topics
+Breadcrumbs exist on Health Topics Directory page http://sfc-stage02.healthline.com/directory/topics
+Symptoms page type link exist on LHS of Health Topics Directory page http://sfc-stage02.healthline.com/directory/topics
+Drugs page type link exist on LHS of Health Topics Directory page http://sfc-stage02.healthline.com/directory/topics
+Videos page type link exist on LHS of Health Topics Directory page http://sfc-stage02.healthline.com/directory/topics
+Slideshows page type link exist on LHS of Health Topics Directory page http://sfc-stage02.healthline.com/directory/topics
+Health Blogs page type link exist on LHS of Health Topics Directory page http://sfc-stage02.healthline.com/directory/topics
+Health News page type link exist on LHS of Health Topics Directory page http://sfc-stage02.healthline.com/directory/topics
+Reference Library page type link exist on LHS of Health Topics Directory page http://sfc-stage02.healthline.com/directory/topics
+Title exist on Health Topic page http://sfc-stage02.healthline.com/health/adhd
+Content exist on Health Topic page http://sfc-stage02.healthline.com/health/adhd
+Center well links  exist on Health Topic page http://sfc-stage02.healthline.com/health/adhd
+Box Pagination links exist on Health Topic page http://sfc-stage02.healthline.com/directory/topics
+Footer Copy text exist http://sfc-stage02.healthline.com/symptom-checker
+Footer Links exist http://sfc-stage02.healthline.com/symptom-checker
+Newsletter sign up widget exist on the footer of http://sfc-stage02.healthline.com/symptom-checker
+Sharebar below Newsletter sign up widget exist on the footer of http://sfc-stage02.healthline.com/symptom-checker
+Footer Copyright text exist on http://sfc-stage02.healthline.com/symptom-checker
+5
+On sharebar facebook icon exist http://sfc-stage02.healthline.com/symptom/developmental-delay
+On sharebar twitter icon exist http://sfc-stage02.healthline.com/symptom/developmental-delay
+On sharebar email icon exist http://sfc-stage02.healthline.com/symptom/developmental-delay
+On sharebar print icon exist http://sfc-stage02.healthline.com/symptom/developmental-delay
+try yes click
+This article changed my life!
+This article was informative.
+I have a medical question.
+First 'This article changed my life!' link is clickable from 'Yes' overlay
+Title of 1st link in Yes overlay: This article changed my life!
+Done button clickable.
+Title of confirmation overlay is: 
+Click on YES overlay
+Second 'This article was informative.' link is clickable from 'Yes' overlay
+Title of 2nd link in Yes overlay: This article was informative.
+Done button clickable.
+Title of confirmation overlay is: 
+Yes overlay closed
+Try to click on NO link.
+NO link
+This article contains incorrect information.
+This article doesn't have the information I'm looking for.
+I have a medical question.
+First 'This article contains incorrect information.' link is clickable from 'No' overlay
+Title of 1st link in No overlay: This article contains incorrect information.
+Done button clickable.
+Title of confirmation overlay is: Thank you for your helpful suggestion.
+Click on NO overlay
+Second 'This article doesn't have the information I'm looking for.' link is clickable from 'No' overlay
+Title of 2nd link in Yes overlay: This article doesn't have the information I'm looking for.
+Done button clickable.
+Title of confirmation overlay is: Thank you for sharing your feedback.
+Assessment Page...
+Title exist on Assessment Page http://sfc-stage02.healthline.com/health-assessments/ms-checkup
+Video thumbanail is missing on Assessment Page http://sfc-stage02.healthline.com/health-assessments/ms-checkup
+view table of contents is displayed on Assessment Pagehttp://sfc-stage02.healthline.com/health-assessments/ms-checkup
+progress bar is displayed on Assessment Pagehttp://sfc-stage02.healthline.com/health-assessments/ms-checkup
+All Links from Health Tools section from HL home page are not broken
+Center well links exist for All TAB on Health Slideshow Directory page http://sfc-stage02.healthline.com/directory/slideshows
+Slideshow container exist on Slideshow page http://sfc-stage02.healthline.com/health-slideshow/10-best-places-to-live-with-ra
+Box Pagination section exist on Health Slideshow directory page http://sfc-stage02.healthline.com/directory/slideshows
+Heading exist on health News page http://sfc-stage02.healthline.com/health-news/more-people-wont-have-health-insurance-next-year
+Box Pagination section exist on Health News directory page http://sfc-stage02.healthline.com/directory/news
+Center well links exist on Common TAB of Health Symptoms Directory page http://sfc-stage02.healthline.com/directory/symptoms
+Symptom search results on http://sfc-stage02.healthline.com/symptom/abdominal-pain
+Box Pagination section exist on http://sfc-stage02.healthline.com/directory/symptoms
+Title exist on Reference Directory page http://sfc-stage02.healthline.com/directory/reference-library-a
+Health Topics page type link exist on LHS of Reference Directory page http://sfc-stage02.healthline.com/directory/reference-library-a
+Symptoms page type link exist on LHS of Reference Directory page http://sfc-stage02.healthline.com/directory/reference-library-a
+Drugs page type link exist on LHS of Reference Directory page http://sfc-stage02.healthline.com/directory/reference-library-a
+Videos page type link exist on LHS of Reference Directory page http://sfc-stage02.healthline.com/directory/reference-library-a
+Slideshows page type link exist on LHS of Reference Directory page http://sfc-stage02.healthline.com/directory/reference-library-a
+Health Blogs page type link exist on LHS of Reference Directory page http://sfc-stage02.healthline.com/directory/reference-library-a
+Health News page type link exist on LHS of Reference Directory page http://sfc-stage02.healthline.com/directory/reference-library-a
+Center well links  exist on Reference directory page http://sfc-stage02.healthline.com/health/a1c
+1500
+Center well links exist on Common TAB of Health Drugs Directory page http://sfc-stage02.healthline.com/directory/drugs
+ Brand name exist on drugs page http://sfc-stage02.healthline.com/drugs/budesonide-formoterol/inhalation-powder,-pressurized#Highlights1
+Center well links exist on Health Video Directory page http://sfc-stage02.healthline.com/directory/videos
+Content exist on Health Video page http://sfc-stage02.healthline.com/video/cholesterol-break-it-down
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 8486
+Only local connections are allowed.
+]]></system-err>
+</testsuite>

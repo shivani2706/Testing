@@ -1,0 +1,91 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: All Tests</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsClinicalTrials"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsClinicalTrials">TestAdsClinicalTrials</a></td><td>Error</td><td>timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.015
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.03 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'prodigy22-PC', ip: '192.9.212.22', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: ac0f0123cd2953bde3cd63491e879b4e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\PRODIG~1\AppData\Local\Temp\scoped_dir1536_32410, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=56.0.2924.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]<br>
+<br>
+<code>org.openqa.selenium.TimeoutException: timeout: cannot determine loading status<br>from timeout: Timed out receiving message from renderer: -0.015<br>  (Session info: chrome=56.0.2924.87)<br>  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)<br>Command duration or timeout: 300.03 seconds<br>Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'<br>System info: host: 'prodigy22-PC', ip: '192.9.212.22', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'<br>Session ID: ac0f0123cd2953bde3cd63491e879b4e<br>Driver info: org.openqa.selenium.chrome.ChromeDriver<br>Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\PRODIG~1\AppData\Local\Temp\scoped_dir1536_32410, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=56.0.2924.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]<br>	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)<br>	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)<br>	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br>	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br>	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)<br>	at Smoketest.HLAds.TestAdsClinicalTrials(Unknown Source)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:606)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)<br>	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.junit.runners.Suite.runChild(Suite.java:128)<br>	at org.junit.runners.Suite.runChild(Suite.java:27)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)<br>	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)<br>	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)<br>	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)<br>
+</code></td><td>310.323</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsDMArticle"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsDMArticle">TestAdsDMArticle</a></td><td>Success</td><td></td><td>183.326</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsStandardArticle"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsStandardArticle">TestAdsStandardArticle</a></td><td>Success</td><td></td><td>232.851</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsTabbedArticle"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsTabbedArticle">TestAdsTabbedArticle</a></td><td>Success</td><td></td><td>243.810</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsPillLanding"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsPillLanding">TestAdsPillLanding</a></td><td>Success</td><td></td><td>114.271</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsDMLanding"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsDMLanding">TestAdsDMLanding</a></td><td>Success</td><td></td><td>223.328</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsNewsArticle"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsNewsArticle">TestAdsNewsArticle</a></td><td>Success</td><td></td><td>192.065</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsHomepage"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsHomepage">TestAdsHomepage</a></td><td>Success</td><td></td><td>138.023</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsVideo"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsVideo">TestAdsVideo</a></td><td>Success</td><td></td><td>151.993</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsblogs"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsblogs">TestAdsblogs</a></td><td>Success</td><td></td><td>24.198</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsSxCResult"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsSxCResult">TestAdsSxCResult</a></td><td>Success</td><td></td><td>148.605</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsNewsLanding"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsNewsLanding">TestAdsNewsLanding</a></td><td>Success</td><td></td><td>148.688</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsDirectory"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsDirectory">TestAdsDirectory</a></td><td>Success</td><td></td><td>35.573</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsBodyMapsArticle"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsBodyMapsArticle">TestAdsBodyMapsArticle</a></td><td>Success</td><td></td><td>20.499</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsSlideshow"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsSlideshow">TestAdsSlideshow</a></td><td>Success</td><td></td><td>264.736</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsSC"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsSC">TestAdsSC</a></td><td>Success</td><td></td><td>110.072</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsTC"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsTC">TestAdsTC</a></td><td>Success</td><td></td><td>102.476</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsReadMoreArticle"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsReadMoreArticle">TestAdsReadMoreArticle</a></td><td>Success</td><td></td><td>170.177</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Smoketest/0_TestSuitehl.html">TestSuitehl</a></td><td><a name="TestAdsDrugArticle"></a><a href="Smoketest/0_TestSuitehl.html#TestAdsDrugArticle">TestAdsDrugArticle</a></td><td>Success</td><td></td><td>153.910</td>
+</tr>
+</table>
+</body>
+</html>

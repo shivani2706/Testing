@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<project name="hl-test" default="jar" basedir=".">
+  <!-- properties -->
+  <property name="build.final.name" value="hl-test"/>
+  <property name="source.dir" value="src/main/java"/>
+  <property name="test.dir" value="src/test/java"/>
+  <property name="build.dir" value="target"/>
+  <property name="doc.dir" value="apidoc"/>
+  <property name="build.output" value="${build.dir}/classes"/>
+  <property name="test.output" value="${build.dir}/test-classes"/>
+  <property name="test.reports" value="${build.dir}/test-reports"/>
+
+  <!-- repositories -->
+  <property name="prod.common.lib.external"
+            value="../../prod/common/lib/external"/>
+  <property name="prod.common.lib.healthline"
+            value="../../prod/common/lib/healthline"/>
+
+  <!-- classpath -->
+  <fileset id="prod.common.lib.external"
+           dir="${prod.common.lib.external}">
+    <include name="guava-16.0.1.jar"/>
+    <include name="gson-2.2.2.jar"/>
+    <include name="commons-lang3-3.3.2.jar"/>
+    <include name="commons-collections-3.2.1.jar"/>
+    <include name="commons-codec-1.9.jar"/>
+
+    <include name="commons-lang-2.5.jar"/>
+    <include name="commons-io-2.4.jar"/>
+    <include name="slf4j-api-1.5.8.jar"/>
+    <include name="log4j-1.2.14.jar"/>
+    <include name="junit-4.1.jar"/>
+
+      <!-- other dependencies-->
+      <include name="commons-httpclient-3.0.jar"/>
+      <include name="commons-logging-1.1.3.jar"/>
+  </fileset>
+  <!--
+  <fileset id="prod.common.lib.external.scala"
+           dir="${prod.common.lib.external.scala}">
+    <include name="akka-actor_2.11-2.3.4.jar"/>
+    <include name="config-1.2.1.jar"/>
+    <include name="jline-2.12.1.jar"/>
+    <include name="scala-actors-2.11.0.jar"/>
+    <include name="scala-actors-migration_2.11-1.1.0.jar"/>
+    <include name="scala-compiler.jar"/>
+    <include name="scala-continuations-library_2.11-1.0.2.jar"/>
+    <include name="scala-continuations-plugin_2.11.5-1.0.2.jar"/>
+    <include name="scala-library.jar"/>
+    <include name="scala-parser-combinators_2.11-1.0.3.jar"/>
+    <include name="scala-reflect.jar"/>
+    <include name="scala-swing_2.11-1.0.1.jar"/>
+    <include name="scala-xml_2.11-1.0.3.jar"/>
+    <include name="scalap-2.11.6.jar"/>
+  </fileset>
+  -->
+  <fileset id="prod.common.lib.healthline"
+           dir="${prod.common.lib.healthline}">
+    <include name="hl-util.jar"/>
+  </fileset>
+  <path id="build.classpath">
+    <fileset refid="prod.common.lib.external"/>
+    <fileset refid="prod.common.lib.healthline"/>
+  </path>
+
+  <!-- targets -->
+  <target name="dumpjars">
+    <property name="t" refid="build.classpath"/>
+    <echo message="${t}"/>
+  </target>
+
+  <target name="setup-IDE-lib" description="Create lib dir for IDE usage">
+    <delete dir="lib"/>
+    <mkdir dir="lib"/>
+    <copy todir="lib" flatten="true">
+      <path refid="build.classpath"/>
+    </copy>
+    <!--local -->
+  </target>
+
+  <target name="clean" description="Clean the output directory">
+    <delete dir="${build.dir}"/>
+    <delete dir="${doc.dir}"/>
+  </target>
+
+  <target name="compile" description="Compile the code">
+    <mkdir dir="${build.output}"/>
+    <javac destdir="${build.output}"
+           excludes="**/package.html"
+           debug="true"
+           deprecation="true"
+           optimize="false"
+           nowarn="false"
+           target="1.7"
+           verbose="false"
+           fork="false"
+           encoding="UTF-8"
+           source="1.7">
+      <src>
+        <pathelement location="${source.dir}"/>
+      </src>
+      <classpath refid="build.classpath"/>
+    </javac>
+  </target>
+
+  <target name="doc" description="Generate API documentation">
+    <javadoc sourcepath="${source.dir}" destdir="${doc.dir}"
+             classpathref="build.classpath" access="package"/>
+  </target>
+
+  <target name="compile-tests" depends="compile"
+          description="Compile the test code">
+    <mkdir dir="${test.output}"/>
+    <javac destdir="${test.output}"
+           excludes="**/package.html"
+           nowarn="false"
+           debug="true"
+           optimize="false"
+           deprecation="true"
+           target="1.7"
+           verbose="false"
+           fork="false"
+           encoding="UTF-8"
+           source="1.7">
+      <src>
+        <pathelement location="${test.dir}"/>
+      </src>
+      <classpath>
+        <path refid="build.classpath"/>
+        <pathelement location="${build.output}"/>
+      </classpath>
+    </javac>
+  </target>
+
+  <target name="test" depends="compile-tests"
+          description="Run the test cases">
+    <mkdir dir="${test.reports}"/>
+    <junit printSummary="yes"
+           haltonerror="true"
+           haltonfailure="true"
+           fork="true"
+           dir=".">
+      <sysproperty key="basedir" value="."/>
+      <formatter type="xml"/>
+      <formatter type="plain" usefile="false"/>
+      <classpath>
+        <path refid="build.classpath"/>
+        <pathelement location="${build.output}"/>
+        <pathelement location="${test.output}"/>
+      </classpath>
+      <batchtest todir="${test.reports}">
+        <fileset dir="${test.dir}">
+          <include name="**/*Test.java"/>
+          <exclude name="**/*Abstract*Test.java"/>
+        </fileset>
+      </batchtest>
+    </junit>
+  </target>
+
+  <target name="unittest" depends="compile-tests"
+          description="Run single test cases (-Dtest.class=full.path.to.Class)">
+    <mkdir dir="${test.reports}"/>
+    <junit printSummary="yes"
+           haltonerror="true"
+           haltonfailure="true"
+           fork="true"
+           dir=".">
+      <sysproperty key="basedir" value="."/>
+      <formatter type="xml"/>
+      <formatter type="plain" usefile="false"/>
+      <classpath>
+        <path refid="build.classpath"/>
+        <pathelement location="${build.output}"/>
+        <pathelement location="${test.output}"/>
+      </classpath>
+      <test name="${test.class}" todir="${build.dir}"/>
+    </junit>
+  </target>
+
+  <target name="run" depends="compile"
+          description="Runs class specified by -Drun.class=full.path.to.Class">
+    <java classname="${run.class}"
+          fork="true"
+          failonerror="true"
+          maxmemory="1024m">
+      <classpath>
+        <path refid="build.classpath"/>
+        <pathelement location="${build.output}"/>
+      </classpath>
+    </java>
+  </target>
+
+  <target name="jar" depends="compile,compile-tests"
+          description="Create JAR file">
+    <jar jarfile="${build.dir}/${build.final.name}.jar"
+         basedir="${build.output}" excludes="**/package.html"/>
+    <jar jarfile="${build.dir}/${build.final.name}-src.jar"
+         basedir="${source.dir}" excludes="**/package.html"/>
+  </target>
+
+  <!--<target name="war" depends="jar" description="Create WAR file">-->
+    <!--<war destfile="${build.dir}/${build.final.name}.war"-->
+         <!--compress="true"-->
+         <!--webxml="src/main/webapp/WEB-INF/web.xml">-->
+      <!--<fileset dir="src/main/webapp"-->
+               <!--excludes="WEB-INF/web.xml"/>-->
+      <!--<lib refid="prod.common.lib.external"/>-->
+      <!--<lib refid="prod.common.lib.healthline"/>-->
+      <!--<lib dir="${build.dir}" includes="${build.final.name}.jar"/>-->
+      <!--<classes dir="${build.output}"/>-->
+    <!--</war>-->
+    <!--<symlink link="${resource.dir}/application.conf"-->
+             <!--resource="${application.conf}" overwrite="true"/>-->
+    <!--&lt;!&ndash;Adding symlink in war creating&ndash;&gt;-->
+  <!--</target>-->
+
+  <!--<target name="clean-tomcat-kafe-backend">-->
+    <!--<delete file="/prod/tomcat7/webapps/hl-kafe-backend.war"/>-->
+    <!--<delete dir="/prod/tomcat7/webapps/hl-kafe-backend"/>-->
+  <!--</target>-->
+
+  <!--<target name="deploy" depends="clean, clean-tomcat-kafe-backend, jar, war">-->
+    <!--<copy todir="/prod/tomcat7/webapps" file="target/hl-kafe-backend.war"/>-->
+  <!--</target>-->
+
+
+
+</project>

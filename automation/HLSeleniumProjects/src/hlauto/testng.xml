@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="HLNewsletterTest">
+  <test name="launchBrowser">
+  	
+    <parameter name="testing_environment" value="stage"/> 	
+  
+    <classes>
+       <class name="HLNewsletterTest" />
+    </classes>
+  </test>
+</suite>

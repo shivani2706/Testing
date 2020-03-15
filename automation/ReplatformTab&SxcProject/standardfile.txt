@@ -1,0 +1,2 @@
+/health/heart-disease/stress-smoking
+/health/copd/quit-smoking-acupuncture-herbs

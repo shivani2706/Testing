@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71257" started-at="2017-05-12T16:04:55Z" finished-at="2017-05-12T16:06:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71257" started-at="2017-05-12T16:04:55Z" finished-at="2017-05-12T16:06:06Z">
+      <class name="hlauto.VerifyAdCalls">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:hlauto.VerifyAdCalls@fad74ee]" name="setUp" is-config="true" duration-ms="8785" started-at="2017-05-12T09:04:55Z" finished-at="2017-05-12T09:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTabArticle()[pri:0, instance:hlauto.VerifyAdCalls@fad74ee]" name="testTabArticle" duration-ms="62171" started-at="2017-05-12T09:05:04Z" finished-at="2017-05-12T09:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTabArticle -->
+        <test-method status="PASS" signature="testParseHarFile()[pri:1, instance:hlauto.VerifyAdCalls@fad74ee]" name="testParseHarFile" duration-ms="283" started-at="2017-05-12T09:06:06Z" finished-at="2017-05-12T09:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseHarFile -->
+      </class> <!-- hlauto.VerifyAdCalls -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

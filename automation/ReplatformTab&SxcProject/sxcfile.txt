@@ -1,0 +1,5 @@
+/symptom/night-sweats
+/symptom/anemia
+/symptom/constipation
+/symptom/chest-pain
+/symptom/cough

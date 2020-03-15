@@ -1,0 +1,2 @@
+/human-body-maps/thigh
+/human-body-maps/male-pelvis-bones/male

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="prodigy22-PC" id="0" name="TestSuitehl" package="Smoketest" skipped="0" tests="19" time="3102.219" timestamp="2017-03-17T11:07:22">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="lib" value="E:\HealthlineAds\lib" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.7.0_79\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\apache-ant-1.9.4" />
+
+          <property name="java.runtime.version" value="1.7.0_79-b15" />
+
+          <property name="user.name" value="prodigy21" />
+
+          <property name="height" value="778" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="E:\HealthlineAds\build" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre\bin" />
+
+          <property name="ant.project.default-target" value="hl_prod" />
+
+          <property name="ant.project.name" value="healthline" />
+
+          <property name="java.version" value="1.7.0_79" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="test.reports.hlstage02" value="E:\HealthlineAds\reports\hlstage02" />
+
+          <property name="test.reports.hlstage01" value="E:\HealthlineAds\reports\hlstage01" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre" />
+
+          <property name="ant.file.healthline" value="E:\HealthlineAds\build.xml" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="E:\HealthlineAds\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="test.reports" value="E:\HealthlineAds\reports" />
+
+          <property name="ant.file.type.healthline" value="file" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.79-b02" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\apache-ant-1.9.4\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\prodigy21" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\prodigy21\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\BINN;D:\apache-ant-1.9.4\bin;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Java\jdk1.7.0_79\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Smoketest.TestSuitehl skipNonTests=false filtertrace=false haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\HealthlineAds\reports\hlstage02\TEST-Smoketest.TestSuitehl.xml crashfile=E:\HealthlineAds\junitvmwatcher3446632817494029695.properties propsfile=E:\HealthlineAds\junit6714633012921792309.properties" />
+
+          <property name="java.class.path" value="E:\HealthlineAds\lib\selenium-2.53.0\selenium-java-2.53.0.jar;E:\HealthlineAds\lib\selenium-2.53.0\selenium-server-standalone-2.53.0.jar;E:\HealthlineAds\build\classes;D:\apache-ant-1.9.4\lib\ant-launcher.jar;D:\apache-ant-1.9.4\lib\ant.jar;D:\apache-ant-1.9.4\lib\ant-junit.jar;D:\apache-ant-1.9.4\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="test.reports.hlprod" value="E:\HealthlineAds\reports\hlprod" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="build.classes" value="E:\HealthlineAds\build\classes" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\PRODIG~1\AppData\Local\Temp\" />
+
+          <property name="test.src" value="E:\HealthlineAds\src" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="width" value="1240" />
+
+          <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="E:\HealthlineAds" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="test.reports.njcweb01" value="E:\HealthlineAds\reports\njcweb01" />
+
+          <property name="basedir" value="E:\HealthlineAds" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="D:\apache-ant-1.9.4\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="test.reports.sfcweb01" value="E:\HealthlineAds\reports\sfcweb01" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="hl_stage02" />
+
+      </properties>
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsClinicalTrials" time="310.323">
+          <error message="timeout: cannot determine loading status&#xa;from timeout: Timed out receiving message from renderer: -0.015&#xa;  (Session info: chrome=56.0.2924.87)&#xa;  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 300.03 seconds&#xa;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;&#xa;System info: host: &apos;prodigy22-PC&apos;, ip: &apos;192.9.212.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;&#xa;Session ID: ac0f0123cd2953bde3cd63491e879b4e&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\PRODIG~1\AppData\Local\Temp\scoped_dir1536_32410, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=56.0.2924.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.015
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.03 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;prodigy22-PC&apos;, ip: &apos;192.9.212.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: ac0f0123cd2953bde3cd63491e879b4e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\PRODIG~1\AppData\Local\Temp\scoped_dir1536_32410, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=56.0.2924.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at Smoketest.HLAds.TestAdsClinicalTrials(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)
+</error>
+
+      </testcase>
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsDMArticle" time="183.326" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsStandardArticle" time="232.851" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsTabbedArticle" time="243.81" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsPillLanding" time="114.271" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsDMLanding" time="223.328" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsNewsArticle" time="192.065" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsHomepage" time="138.023" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsVideo" time="151.993" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsblogs" time="24.198" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsSxCResult" time="148.605" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsNewsLanding" time="148.688" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsDirectory" time="35.573" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsBodyMapsArticle" time="20.499" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsSlideshow" time="264.736" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsSC" time="110.072" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsTC" time="102.476" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsReadMoreArticle" time="170.177" />
+
+      <testcase classname="Smoketest.HLAds" name="TestAdsDrugArticle" time="153.91" />
+
+      <system-out><![CDATA[===============================================
+Ads on Diabetesmine Article for Desktop...
+===============================================
+LB Ad is present on Diabetesmine Article page - 1024 breakpoint!
+MR1 Ad is present on Diabetesmine Article page - 1024 breakpoint!
+MR2 Ad is present on Diabetesmine Article page - 1024 breakpoint!
+===============================================
+Ads on Diabetesmine Article for Tablet...
+===============================================
+LB Ad is present on Diabetesmine Article page - 600 breakpoint!
+MR1 Ad is present on Diabetesmine Article page - 600 breakpoint!
+MR2 Ad is present on Diabetesmine Article page - 600 breakpoint!
+===============================================
+Ads on Diabetesmine Article for Mobile...
+===============================================
+LB Ad is present on Diabetesmine Article page - 320 breakpoint!
+MR3 ad present on Diabetesmine Article page - 320 breakpoint!
+===============================================
+Ads on Standard Article for Desktop BP...
+===============================================
+LB Ad is present on Standard article page - Desktop breakpoint!!
+TL Ad is missing on Standard article page - Desktop breakpoint!
+WSL Ad is present on Standard article page - Desktop breakpoint!
+MR1 Ad is present on Standard article page - Desktop breakpoint!
+MR2 Ad is present on Standard article -  Desktop breakpoint!
+Swoop Ad is missing on Standard article page - Desktop breakpoint!
+===============================================
+Ads on Standard Article for Tablet BP...
+===============================================
+LB Ad is present on Standard article page - 768 breakpoint!
+TL Ad is missing on Standard article page - 768 breakpoint!
+MR1 Ad is present on Standard article page - 768 breakpoint!
+MR2 Ad is present on Standard article page - 768 breakpoint!
+===============================================
+Ads on Mobile BP for Standard Article...
+===============================================
+LB Ad is present on Standard article page - 375 breakpoint!
+TL Ad is missing on Standard article page - 375 breakpoint!
+Swoop Ad is missing on Standard article page - 375 breakpoint!
+MR3 ad present after section 2 on Standard article page - 375 breakpoint
+MR3 ad present after section 7 on Standard article page - 375 breakpoint
+MR3 ad present after section 12 on Standard article page - 375 breakpoint
+===============================================
+Ads on Tabbed Article for Desktop BP...
+===============================================
+LB Ad is missing on Tabbed article page - Desktop breakpoint!
+TL Ad is missing on Tabbed article page - Desktop breakpoint!
+MR1 Ad is missing on Tabbed article page - Desktop breakpoint!
+MR2 Ad is missing on Tabbed article page - Desktop breakpoint!
+WSL Ad is missing on Tabbed article page - Desktop breakpoint!
+Swoop Ad is missing on Tabbed article page - Desktop breakpoint!
+===============================================
+Ads on Tabbed Article for Tablet BP...
+===============================================
+LB Ad is missing on Tabbed article page - 768 breakpoint!
+TL Ad is missing on Tabbed article page - 768 breakpoint!
+MR3 Ad is missing on Tabbed article page - 768 breakpoint!http://sfc-stage02.healthline.com/health/cerebral-palsy
+===============================================
+Ads on Tabbed Article for Mobile BP...
+===============================================
+LB Ad is missing on Tabbed article page -  375 breakpoint!
+TL Ad is missing on Tabbed article page - 375 breakpoint!
+Swoop Ad is missing on Tabbed article page - 375 breakpoint!
+MR3 Ad is missing on Tabbed article page - 375 breakpoint!http://sfc-stage02.healthline.com/health/cerebral-palsy
+===============================================
+Ads on Pill Identifier for Desktop...
+===============================================
+LB Ad is present on Pill Identifier Page - 1024 breakpoint!
+MR1 Ad is present on Pill Identifier  Page - 1024 breakpoint!
+MR2 Ad is present on Pill Identifier  Page - 1024 breakpoint!
+===============================================
+Ads on Pill Identifier for Tablet...
+===============================================
+LB Ad is present on Pill Identifier Page - 768 breakpoint!
+===============================================
+Ads on Pill Identifier for Mobile...
+===============================================
+LB Ad is present on Pill Identifier Page - 375 breakpoint!
+===============================================
+Ads on Diabetesmine Landing Page for Desktop...
+===============================================
+LB Ad is present on DM Landing Page - 1024 breakpoint!
+MR1 Ad is present on DM Landing Page - 1024 breakpoint!
+===============================================
+Ads on Diabetesmine Landing Page for Tablet...
+===============================================
+LB Ad is present on DM Landing Page - 768 breakpoint!
+MR1 Ad is present on DM Landing Page - 768 breakpoint!
+===============================================
+Ads on Diabetesmine Landing Page for Mobile...
+===============================================
+LB Ad is present on DM Landing Page - 375 breakpoint!
+===============================================
+Ads on News Article for Desktop...
+===============================================
+LB Ad is present on News Article page - 1024 breakpoint!
+MR1 Ad is present on News Article page - 1024 breakpoint!
+===============================================
+Ads on News Article for Tablet...
+===============================================
+LB Ad is present on News Article page - 768 breakpoint!
+MR1 Ad is present on News Article page - 768 breakpoint!
+===============================================
+Ads on News Article for Mobile...
+===============================================
+LB Ad is present on News Article page - 375 breakpoint!
+MR3 ad after section 2 present on News Article page - 375 breakpoint!
+MR3 ad after section 7 present on News Article page - 375 breakpoint!
+MR3 ad after section 12 present on News Article page - 375 breakpoint!
+MR3 ad after section 17 present on News Article page - 375 breakpoint!
+MR3 ad after section 22 present on News Article page - 375 breakpoint!
+MR3 ad after section 27 present on News Article page - 375 breakpoint!
+MR3 ad after section 32 present on News Article page - 375 breakpoint!
+MR3 ad after section 37 present on News Article page - 375 breakpoint!
+===============================================
+Ads on HomePage for Desktop BP...
+===============================================
+1st MR3 ad is present on HomePage - Desktop!
+2nd MR3 ad is present on HomePage - Desktop!
+===============================================
+Ads on HomePage for Tablet...
+===============================================
+1st MR3 ad is present on HomePage - 768 breakpoint!
+2nd MR3 ad is present on HomePage - 768 breakpoint!
+===============================================
+Ads on HomePage for Mobile...
+===============================================
+1st MR3 ad is present on HomePage - 375 breakpoint!
+2nd MR3 ad is present on HomePage - 375 breakpoint!
+===============================================
+Ads on Single Video Page for Desktop...
+===============================================
+LB Ad is missing on Single video page - 1024 breakpoint!
+MR1 Ad is missing on Single video page - 1024 breakpoint!
+===============================================
+Ads on Single Video Page for Tablet BP...
+===============================================
+LB Ad is missing on Single video page - 768 breakpoint!
+MR1 Ad is missing on Single video page - 768 breakpoint!
+===============================================
+Ads on Single Video Page for Mobile BP...
+===============================================
+LB Ad is missing on Single video page - 375 breakpoint!
+===============================================
+Ads on Blog for Desktop...
+===============================================
+LB Ad is present on Blog page - 1024 breakpoint!
+MR1 Ad is present on Blog page - 1024 breakpoint!
+===============================================
+Ads on SxC Result for Desktop...
+===============================================
+LB Ad is present on SxC Result Page - 1024 breakpoint
+MR1 Ad is present on SxC Result Page - 1024 breakpoint!
+MR2 Ad is present on SxC Result Page - 1024 breakpoint!
+===============================================
+Ads on SxC Result for Tablet...
+===============================================
+LB Ad is present on SxC Result Page - 768 breakpoint!
+MR3 ad present after section 6 present on SxC Result Page - 768 breakpoint
+MR3 ad present after section 12 present on SxC Result Page - 768 breakpoint
+java.lang.IndexOutOfBoundsException: Index: 17, Size: 17
+===============================================
+Ads on SxC Result for Mobile...
+===============================================
+LB Ad is present on SxC Result Page - 375 breakpoint!
+MR3 ad present after section 6 present on SxC Result Page - 375 breakpoint
+MR3 ad present after section 12 present on SxC Result Page - 375 breakpoint
+java.lang.IndexOutOfBoundsException: Index: 17, Size: 17
+===============================================
+Ads on News Landing Page for Desktop...
+===============================================
+MR1 Ad is present on News Landing Page - 1024 breakpoint!
+===============================================
+Ads on News Landing Page for Tablet...
+===============================================
+LB Ad is present on News Landing Page - 768 breakpoint!
+MR1 Ad is present on News Landing Page - 768 breakpoint!
+===============================================
+Ads on News Landing Page for Mobile...
+===============================================
+LB Ad is present on News Landing Page - 375 breakpoint!
+MR1 Ad is present on News Landing Page - 375 breakpoint!
+===============================================
+Ads on Directory for Desktop...
+===============================================
+LB Ad is present on Directory page - 1024 breakpoint!
+MR1 Ad is present on Directory page - 1024 breakpoint!
+===============================================
+Ads on Bodymap for Desktop...
+===============================================
+LB Ad is present on Bodymap page - 1024 breakpoint!
+MR1 Ad is present on Bodymap page - 1024 breakpoint!
+===============================================
+Ads on Slideshow for Desktop BP...
+===============================================
+LB Ad is present on Slideshow page - Desktop breakpoint!
+MR1 Ad is present on Slideshow page -  Desktop breakpoint!
+MR2 Ad is present on Slideshow page - Desktop breakpoint!
+===============================================
+Ads on Slideshow for Tablet BP...
+===============================================
+LB Ad is present on Slideshow page - 768 breakpoint!
+13
+MR1 Ad is missing on 5 slide of slideshow page - 768 breakpoint!
+MR1 Ad is missing on 10 slide of slideshow page - 768 breakpoint!
+===============================================
+Ads on Slideshow for Mobile BP...
+===============================================
+LB Ad is present on Slideshow page -  375 breakpoint!
+13
+9
+
+MR3 Ad is present after 2 slide of slideshow page - 375 breakpoint!
+
+MR3 Ad is present after 4 slide of slideshow page - 375 breakpoint!
+
+MR3 Ad is present after 6 slide of slideshow page - 375 breakpoint!
+
+MR3 Ad is present after 8 slide of slideshow page - 375 breakpoint!
+
+MR3 Ad is present after 10 slide of slideshow page - 375 breakpoint!
+===============================================
+Ads on SxC for Desktop...
+===============================================
+MR1 Ad is present on SxC Landing page - 1024 breakpoint!
+===============================================
+Ads on SxC for Tablet...
+===============================================
+MR1 Ad is present on SxC Landing page - 768 breakpoint!
+===============================================
+Ads on SxC for Mobile...
+===============================================
+MR1 Ad is present on SxC Landing page - 375 breakpoint!
+===============================================
+Ads on Topic Center for Desktop BP...
+===============================================
+LB Ad is present on topic center page - 1024 breakpoint!
+MR1 Ad is present on topic center page - 1024 breakpoint!
+MR2 Ad is present on topic center page - 1024 breakpoint!
+===============================================
+Ads on Topic Center for Tablet BP...
+===============================================
+LB Ad is present on topic center page - 768 breakpoint!
+MR1 Ad is present on topic center page - 768 breakpoint!
+===============================================
+Ads on Topic Center for Mobile BP...
+===============================================
+LB Ad is present on topic center page - 375 breakpoint!
+MR1 Ad is present on topic center page - 375 breakpoint!
+===============================================
+Ads on Read More Article for Desktop BP...
+===============================================
+LB Ad is present on Read More Article page - Desktop breakpoint!
+MR1 Ad is present on Read More Article page - Desktop breakpoint!
+MR2 Ad is present on Read More Article page - Desktop breakpoint!
+===============================================
+Ads on Read More Article for Tablet BP...
+===============================================
+LB Ad is present on Read More Article page - 768 breakpoint!
+MR3 ad is present after 4 topic block on Read more article page - 768 breakpoint
+MR3 ad is present after 8 topic block on Read more article page - 768 breakpoint
+MR3 ad is present after 12 topic block on Read more article page - 768 breakpoint
+MR3 ad is present after 16 topic block on Read more article page - 768 breakpoint
+===============================================
+Ads on Read More Article for Mobile BP...
+===============================================
+LB Ad is present on Read More Article page - 375 breakpoint!
+MR3 ad is missing after 6 topic block on Read more article page - 320 breakpoint
+MR3 ad is present after 12 topic block on Read more article page - 320 breakpoint
+===============================================
+Ads on Drug Article for Desktop...
+===============================================
+LB Ad is present on Drug Article -  Desktop breakpoint!
+MR1 Ad is present on Drug Article -  Desktop breakpoint!
+MR2 Ad is present on Drug Article -  Desktop breakpoint!
+===============================================
+Ads on Drug Article for Tablet...
+===============================================
+LB Ad is present on Drug Article -  768 breakpoint!
+MR3 ad is present on Drug article page - 768 breakpoint!
+===============================================
+Ads on Drug Article for Mobile...
+===============================================
+LB Ad is present on Drug Article -  375 breakpoint!
+MR3 ad is present on Drug article page - 375 breakpoint!
+]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 2172
+Only local connections are allowed.
+Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 38727
+Only local connections are allowed.
+Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 1478
+Only local connections are allowed.
+[346.714][SEVERE]: Timed out receiving message from renderer: 299.979
+[346.729][SEVERE]: Timed out receiving message from renderer: -0.015
+]]></system-err>
+
+  </testsuite>
+</testsuites>

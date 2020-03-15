@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="104492" started-at="2017-10-07T13:21:14Z" finished-at="2017-10-07T13:22:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="104492" started-at="2017-10-07T13:21:14Z" finished-at="2017-10-07T13:22:58Z">
+      <class name="Smoketest.adTest">
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:Smoketest.adTest@5093acc2]" name="testHomePage" duration-ms="104476" started-at="2017-10-07T18:51:14Z" finished-at="2017-10-07T18:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+      </class> <!-- Smoketest.adTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

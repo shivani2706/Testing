@@ -1,0 +1,328 @@
+
+<!-- ====================================================================== 
+     June 27, 2011 10:20:41 AM                                                        
+  
+     sfcweb01 : To run short regression for livestrong and partners against sfc-web01
+                   
+     ktu                                                                
+     ====================================================================== -->
+<project name="livestrong" default="livestrong_prod" basedir=".">
+	<description>
+            This project has 3 targets, production, stage01 and stage02
+            and the default target is production.    	
+    </description>
+	<property name="test.src" location="src" />
+	<property name="build" location="build" />
+	<property name="build.classes" location="build/classes" />
+	<property name="lib" location="${basedir}/lib" />
+	<property name="test.reports" location="reports" />
+
+
+	<property name="test.reports.livestrongprod" location="reports/livestrongprod" />
+	<property name="test.reports.livestrongstage01" location="reports/livestrongstage01" />
+	<property name="test.reports.livestrongstage02" location="reports/livestrongstage02" />
+	<!--<property name="test.reports.sfcweb01" location="reports/sfcweb01" />
+	<property name="test.reports.njcweb01" location="reports/njcweb01" />-->
+
+	
+
+
+
+	<property name="width" value="1240" />
+	<property name="height" value="778" />
+
+
+	<fileset id="junit4.lib" dir="${lib}">
+		<include name="*.jar" />
+	</fileset>
+	<fileset id="selenium.client.lib" dir="${lib}/selenium-2.46.0">
+		<include name="*.jar" />
+	</fileset>
+	<fileset id="webdriver.lib" dir="${lib}/selenium-2.46.0/libs">
+		<include name="*.jar" />
+	</fileset>
+
+	<path id="compile.classpath">
+		<fileset refid="junit4.lib" />
+		<fileset refid="selenium.client.lib" />
+		<fileset refid="webdriver.lib" />
+	</path>
+	
+
+	
+
+	<target name="livestrong_prod" depends="compilelivestrongprod">
+		<description>
+		          "To test livestrong.com"
+		        </description>
+		<junit fork="yes" filtertrace="off" failureproperty="test.failed">
+			<jvmarg line="-Xmx1024m" />
+			<env key="URL" value="http://www.livestrong.com/healthline" />
+			<env key="BROWSER_WIDTH" value="${width}" />
+			<env key="BROWSER_HEIGHT" value="${height}" />
+			<env key="DRIVER" value="chrome" />
+			
+			<formatter type="xml" />
+			<classpath>
+				<path refid="compile.classpath" />
+				<pathelement path="${build.classes}" />
+			</classpath>
+			<batchtest todir="${test.reports.livestrongprod}">
+				<fileset dir="${build.classes}" includes="**/TestSuitelivestrong.class" />
+			</batchtest>
+		</junit>
+		<junitreport todir="${test.reports.livestrongprod}">
+			<fileset dir="${test.reports.livestrongprod}">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${test.reports.livestrongprod}/html" />
+		</junitreport>
+	</target>
+
+
+	<target name="livestrong_stage01" depends="compilelivestrongstage01">
+		<description>
+		          "To test livestrong.com"
+		        </description>
+		<junit fork="yes" filtertrace="off" failureproperty="test.failed">
+			<jvmarg line="-Xmx1024m" />
+			<env key="URL" value="http://hl.livestrong.com" />
+			<env key="BROWSER_WIDTH" value="${width}" />
+			<env key="BROWSER_HEIGHT" value="${height}" />
+			<env key="DRIVER" value="chrome" />
+			
+			<formatter type="xml" />
+			<classpath>
+				<path refid="compile.classpath" />
+				<pathelement path="${build.classes}" />
+			</classpath>
+			<batchtest todir="${test.reports.livestrongstage01}">
+				<fileset dir="${build.classes}" includes="**/TestSuitelivestrong.class" />
+			</batchtest>
+		</junit>
+		<junitreport todir="${test.reports.livestrongstage01}">
+			<fileset dir="${test.reports.livestrongstage01}">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${test.reports.livestrongstage01}/html" />
+		</junitreport>
+	</target>
+
+<target name="livestrong_stage02" depends="compilelivestrongstage02">
+		<description>
+		          "To test livestrong.com"
+		        </description>
+		<junit fork="yes" filtertrace="off" failureproperty="test.failed">
+			<jvmarg line="-Xmx1024m" />
+			<env key="URL" value="http://staging.livestrong.com/healthline" />
+			<env key="BROWSER_WIDTH" value="${width}" />
+			<env key="BROWSER_HEIGHT" value="${height}" />
+			<env key="DRIVER" value="chrome" />
+			
+			<formatter type="xml" />
+			<classpath>
+				<path refid="compile.classpath" />
+				<pathelement path="${build.classes}" />
+			</classpath>
+			<batchtest todir="${test.reports.livestrongstage02}">
+				<fileset dir="${build.classes}" includes="**/TestSuitelivestrong.class" />
+			</batchtest>
+		</junit>
+		<junitreport todir="${test.reports.livestrongstage02}">
+			<fileset dir="${test.reports.livestrongstage02}">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${test.reports.livestrongstage02}/html" />
+		</junitreport>
+	</target>
+
+	<!--<target name="sfcweb01" depends="compilesfcweb01">
+			<description>
+	          "To test sfc-web01.healtlivestrongine.com"
+	        </description>
+			<junit fork="yes" filtertrace="off" failureproperty="test.failed">
+				<jvmarg line="-Xmx1024m" />
+				<env key="URL" value="http://sfc-web01.healtlivestrongine.com" />
+				<env key="DRIVER" value="chrome" />
+				<env key="BROWSER_WIDTH" value="${width}" />
+				<env key="BROWSER_HEIGHT" value="${height}" />
+			
+				<formatter type="xml" />
+				<classpath>
+					<path refid="compile.classpath" />
+					<pathelement path="${build.classes}" />
+				</classpath>
+				<batchtest todir="${test.reports.sfcweb01}">
+					<fileset dir="${build.classes}" includes="**/TestSuitelivestrong.class" />
+				</batchtest>
+			</junit>
+			<junitreport todir="${test.reports.sfcweb01}">
+				<fileset dir="${test.reports.sfcweb01}">
+					<include name="TEST-*.xml" />
+				</fileset>
+				<report format="frames" todir="${test.reports.sfcweb01}/html" />
+			</junitreport>
+		</target>-->
+	
+	<!-- <target name="njcweb01" depends="compilenjcweb01">
+			<description>
+	          "To test njc-web01.healtlivestrongine.com"
+	        </description>
+			<junit fork="yes" filtertrace="off" failureproperty="test.failed">
+				<jvmarg line="-Xmx1024m" />
+				<env key="URL" value="http://njc-web01.healtlivestrongine.com" />
+				<env key="DRIVER" value="chrome" />
+				<env key="BROWSER_WIDTH" value="${width}" />
+				<env key="BROWSER_HEIGHT" value="${height}" />
+				
+				<formatter type="xml" />
+				<classpath>
+					<path refid="compile.classpath" />
+					<pathelement path="${build.classes}" />
+				</classpath>
+				<batchtest todir="${test.reports.njcweb01}">
+					<fileset dir="${build.classes}" includes="**/TestSuitelivestrong.class" />
+				</batchtest>
+			</junit>
+			<junitreport todir="${test.reports.njcweb01}">
+				<fileset dir="${test.reports.njcweb01}">
+					<include name="TEST-*.xml" />
+				</fileset>
+				<report format="frames" todir="${test.reports.njcweb01}/html" />
+			</junitreport>
+		</target>-->
+
+	
+	
+	
+	<target name="compilelivestrongprod" depends="initlivestrongprod">
+		<javac srcdir="${test.src}" destdir="${build.classes}" includeantruntime="false" classpathref="compile.classpath">
+		</javac>
+	</target>
+
+	<target name="compilelivestrongstage02" depends="initlivestrongstage02">
+		<javac srcdir="${test.src}" destdir="${build.classes}" includeantruntime="false" classpathref="compile.classpath">
+		</javac>
+	</target>
+	<target name="compilelivestrongstage01" depends="initlivestrongstage01">
+		<javac srcdir="${test.src}" destdir="${build.classes}" includeantruntime="false" classpathref="compile.classpath">
+		</javac>
+	</target>
+	<!--<target name="compilesfcweb01" depends="initsfcweb01">
+			<javac srcdir="${test.src}" destdir="${build.classes}" includeantruntime="false" classpathref="compile.classpath">
+			</javac>
+		</target>
+
+	<target name="compilenjcweb01" depends="initnjcweb01">
+			<javac srcdir="${test.src}" destdir="${build.classes}" includeantruntime="false" classpathref="compile.classpath">
+			</javac>
+		</target>-->
+	
+	
+
+	
+	<target name="initlivestrongprod" depends="cleanlivestrongprod">
+		<mkdir dir="${build.classes}" />
+		<mkdir dir="${test.reports}" />
+		
+		<mkdir dir="${test.reports.livestrongstage01}" />
+		<mkdir dir="${test.reports.livestrongstage02}" />
+		<mkdir dir="${test.reports.livestrongprod}" />
+		<mkdir dir="${test.reports.sfcweb01}" />
+		<mkdir dir="${test.reports.njcweb01}" />
+		
+	</target>
+
+	<target name="initlivestrongstage02" depends="cleanlivestrongstage02">
+		<mkdir dir="${build.classes}" />
+		<mkdir dir="${test.reports}" />
+		<mkdir dir="${test.reports.livestrongstage01}" />
+		<mkdir dir="${test.reports.livestrongstage02}" />
+		<mkdir dir="${test.reports.livestrongprod}" />
+		<!--<mkdir dir="${test.reports.sfcweb01}" />
+				<mkdir dir="${test.reports.njcweb01}" />-->
+		
+	</target>
+	<target name="initlivestrongstage01" depends="cleanlivestrongstage01">
+		<mkdir dir="${build.classes}" />
+		<mkdir dir="${test.reports}" />
+		<mkdir dir="${test.reports.livestrongstage01}" />
+		<mkdir dir="${test.reports.livestrongstage02}" />
+		<mkdir dir="${test.reports.livestrongprod}" />
+		<!--<mkdir dir="${test.reports.sfcweb01}" />
+				<mkdir dir="${test.reports.njcweb01}" /> -->
+		
+	</target>
+	<!--<target name="initsfcweb01" depends="cleansfcweb01">
+			<mkdir dir="${build.classes}" />
+			<mkdir dir="${test.reports}" />
+			<mkdir dir="${test.reports.livestrongstage01}" />
+			<mkdir dir="${test.reports.livestrongstage02}" />
+			<mkdir dir="${test.reports.livestrongprod}" />
+		   <mkdir dir="${test.reports.sfcweb01}" />
+		   <mkdir dir="${test.reports.njcweb01}" />
+			
+		</target>
+
+	<target name="initnjcweb01" depends="cleannjcweb01">
+				<mkdir dir="${build.classes}" />
+				<mkdir dir="${test.reports}" />
+				<mkdir dir="${test.reports.livestrongstage01}" />
+				<mkdir dir="${test.reports.livestrongstage02}" />
+				<mkdir dir="${test.reports.livestrongprod}" />
+			   <mkdir dir="${test.reports.sfcweb01}" />
+			   <mkdir dir="${test.reports.njcweb01}" />
+				
+			</target>-->
+
+		
+	
+	
+	
+	
+	<target name="cleanlivestrongprod">
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${build}" />
+		</delete>
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${test.reports.livestrongprod}" />
+		</delete>
+	</target>
+
+	<target name="cleanlivestrongstage02">
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${build}" />
+		</delete>
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${test.reports.livestrongstage02}" />
+		</delete>
+	</target>
+	<target name="cleanlivestrongstage01">
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${build}" />
+		</delete>
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${test.reports.livestrongstage01}" />
+		</delete>
+	</target>
+	<!--<target name="cleansfcweb01">
+			<delete includeEmptyDirs="true" failonerror="false">
+				<fileset dir="${build}" />
+			</delete>
+			<delete includeEmptyDirs="true" failonerror="false">
+				<fileset dir="${test.reports.sfcweb01}" />
+			</delete>
+		</target>
+	<target name="cleannjcweb01">
+				<delete includeEmptyDirs="true" failonerror="false">
+					<fileset dir="${build}" />
+				</delete>
+				<delete includeEmptyDirs="true" failonerror="false">
+					<fileset dir="${test.reports.njcweb01}" />
+				</delete>
+			</target> -->
+	
+
+	
+
+</project>

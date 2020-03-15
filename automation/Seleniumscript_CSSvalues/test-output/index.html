@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\cchoy\AppData\Local\Temp\testng-eclipse-775348310\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="cssvalues.VerifyStyles" hash-for-method="getCSSStyles">getCSSStyles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cssvalues.VerifyStyles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCSSStyles">
+                  </a> <!-- getCSSStyles -->
+                  <span class="method-name">getCSSStyles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\cchoy\AppData\Local\Temp\testng-eclipse-775348310\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;cssvalues.VerifyStyles&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getCSSStyles')
+data.setCell(0, 2, 'cssvalues.VerifyStyles')
+data.setCell(0, 3, 49600);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getCSSStyles</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">DEVICE=desktop
+</span>
+                <span class="reporter-method-output">Styles for Heading H1 are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 48px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> Tiempos-Medium</span>
+                <span class="reporter-method-output">Used Font Family -> Tiempos-Medium</span>
+                <span class="reporter-method-output">font-weight -> 500 ; </span>
+                <span class="reporter-method-output">height -> 52px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 52.8px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Copyright text are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 14px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(128, 129, 132, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #808184</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 152px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 19.6px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Header Newsletter are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 16px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(128, 129, 132, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #808184</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNovaCond-SemiBold</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNovaCond-SemiBold</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 22px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 22.4px</span>
+                <span class="reporter-method-output">Font Text Alignment -> left</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Header Logo are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 18px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(5, 162, 211, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #05a2d3</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 70px ; </span>
+                <span class="reporter-method-output">padding -> 10px 0px</span>
+                <span class="reporter-method-output">Line-height -> 25.2px</span>
+                <span class="reporter-method-output">Font Text Alignment -> center</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Hamburger menu are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 18px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 70px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 70px</span>
+                <span class="reporter-method-output">Font Text Alignment -> center</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Heading H2 are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 38px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova-Bold</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova-Bold</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 41px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 41.8px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Newsletter footer are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 30px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(5, 162, 211, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #05a2d3</span>
+                <span class="reporter-method-output">Font Family List -> Tiempos-Medium</span>
+                <span class="reporter-method-output">Used Font Family -> Tiempos-Medium</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 42px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 42px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Newsletter input box are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 16px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 24px ; </span>
+                <span class="reporter-method-output">padding -> 1px 0px</span>
+                <span class="reporter-method-output">Line-height -> 22.4px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(247, 247, 247, 1)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Newsletter submit btn are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 14px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(255, 255, 255, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #ffffff</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova-SemiBold</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova-SemiBold</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 30px ; </span>
+                <span class="reporter-method-output">padding -> 9px 18px</span>
+                <span class="reporter-method-output">Line-height -> 10.8px</span>
+                <span class="reporter-method-output">Font Text Alignment -> center</span>
+                <span class="reporter-method-output">background color -> rgba(5, 162, 211, 1)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">----------------------------------------------------------------------------------------------------</span>
+                <span class="reporter-method-output">DEVICE=Google Nexus 5
+</span>
+                <span class="reporter-method-output">Styles for Heading H1 are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 32px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> Tiempos-Medium</span>
+                <span class="reporter-method-output">Used Font Family -> Tiempos-Medium</span>
+                <span class="reporter-method-output">font-weight -> 500 ; </span>
+                <span class="reporter-method-output">height -> 35px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 35.2px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Copyright text are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 14px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(128, 129, 132, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #808184</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 95px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 19.6px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Header Newsletter are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 12px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(128, 129, 132, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #808184</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNovaCond-SemiBold</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNovaCond-SemiBold</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> auto ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 16.8px</span>
+                <span class="reporter-method-output">Font Text Alignment -> left</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Header Logo are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 17px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(5, 162, 211, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #05a2d3</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 50px ; </span>
+                <span class="reporter-method-output">padding -> 10px 0px</span>
+                <span class="reporter-method-output">Line-height -> 23.8px</span>
+                <span class="reporter-method-output">Font Text Alignment -> left</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Hamburger menu are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 17px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 50px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 50px</span>
+                <span class="reporter-method-output">Font Text Alignment -> center</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Heading H2 are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 24px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova-Bold</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova-Bold</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 26px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 26.4px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Newsletter footer are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 24px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(255, 255, 255, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #ffffff</span>
+                <span class="reporter-method-output">Font Family List -> Tiempos-Medium</span>
+                <span class="reporter-method-output">Used Font Family -> Tiempos-Medium</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 53px ; </span>
+                <span class="reporter-method-output">padding -> 20px 0px 0px</span>
+                <span class="reporter-method-output">Line-height -> 33.6px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Newsletter input box are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 16px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(255, 255, 255, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #ffffff</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 24px ; </span>
+                <span class="reporter-method-output">padding -> 1px 0px</span>
+                <span class="reporter-method-output">Line-height -> 22.4px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(5, 162, 211, 1)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Newsletter submit btn are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 14px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(64, 64, 65, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #404041</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova-SemiBold</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova-SemiBold</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 30px ; </span>
+                <span class="reporter-method-output">padding -> 8.5px 17px</span>
+                <span class="reporter-method-output">Line-height -> 10.2px</span>
+                <span class="reporter-method-output">Font Text Alignment -> center</span>
+                <span class="reporter-method-output">background color -> rgba(255, 255, 255, 1)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">----------------------------------------------------------------------------------------------------</span>
+                <span class="reporter-method-output">DEVICE=Apple iPad
+</span>
+                <span class="reporter-method-output">Styles for Heading H1 are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 48px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> Tiempos-Medium</span>
+                <span class="reporter-method-output">Used Font Family -> Tiempos-Medium</span>
+                <span class="reporter-method-output">font-weight -> 500 ; </span>
+                <span class="reporter-method-output">height -> 52px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 52.8px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Copyright text are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 14px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(128, 129, 132, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #808184</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 72px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 19.6px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Header Newsletter are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 16px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(128, 129, 132, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #808184</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNovaCond-SemiBold</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNovaCond-SemiBold</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 22px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 22.4px</span>
+                <span class="reporter-method-output">Font Text Alignment -> left</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Header Logo are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 18px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(5, 162, 211, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #05a2d3</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 65px ; </span>
+                <span class="reporter-method-output">padding -> 15px 0px 10px</span>
+                <span class="reporter-method-output">Line-height -> 25.2px</span>
+                <span class="reporter-method-output">Font Text Alignment -> center</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Hamburger menu are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 18px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 70px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 70px</span>
+                <span class="reporter-method-output">Font Text Alignment -> center</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Heading H2 are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 38px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova-Bold</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova-Bold</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 41px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 41.8px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Newsletter footer are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 30px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(5, 162, 211, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #05a2d3</span>
+                <span class="reporter-method-output">Font Family List -> Tiempos-Medium</span>
+                <span class="reporter-method-output">Used Font Family -> Tiempos-Medium</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 42px ; </span>
+                <span class="reporter-method-output">padding -> 0px</span>
+                <span class="reporter-method-output">Line-height -> 42px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(0, 0, 0, 0)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Newsletter input box are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 16px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(35, 31, 32, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #231f20</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 24px ; </span>
+                <span class="reporter-method-output">padding -> 1px 0px</span>
+                <span class="reporter-method-output">Line-height -> 22.4px</span>
+                <span class="reporter-method-output">Font Text Alignment -> start</span>
+                <span class="reporter-method-output">background color -> rgba(247, 247, 247, 1)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">Styles for Newsletter submit btn are ------------------------- </span>
+                <span class="reporter-method-output">Font Size -> 14px</span>
+                <span class="reporter-method-output">RGb Font Color -> rgba(255, 255, 255, 1) ; </span>
+                <span class="reporter-method-output">Font Color -> #ffffff</span>
+                <span class="reporter-method-output">Font Family List -> ProximaNova-SemiBold</span>
+                <span class="reporter-method-output">Used Font Family -> ProximaNova-SemiBold</span>
+                <span class="reporter-method-output">font-weight -> normal ; </span>
+                <span class="reporter-method-output">height -> 30px ; </span>
+                <span class="reporter-method-output">padding -> 9px 18px</span>
+                <span class="reporter-method-output">Line-height -> 10.8px</span>
+                <span class="reporter-method-output">Font Text Alignment -> center</span>
+                <span class="reporter-method-output">background color -> rgba(5, 162, 211, 1)</span>
+                <span class="reporter-method-output">
+</span>
+                <span class="reporter-method-output">----------------------------------------------------------------------------------------------------</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">cssvalues.VerifyStyles</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">getCSSStyles</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49632 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="prodigy22-PC" id="0" name="TestSuitedrugs" package="smoketest" skipped="0" tests="6" time="124.162" timestamp="2017-11-07T10:16:03">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="lib" value="E:\Drugs\lib" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\apache-ant-1.9.4" />
+
+          <property name="java.runtime.version" value="1.8.0_131-b11" />
+
+          <property name="ant.file.type.Drugs" value="file" />
+
+          <property name="user.name" value="prodigy21" />
+
+          <property name="ant.file.Drugs" value="E:\Drugs\build.xml" />
+
+          <property name="height" value="778" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="E:\Drugs\build" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin" />
+
+          <property name="ant.project.default-target" value="drugs_prod" />
+
+          <property name="ant.project.name" value="Drugs" />
+
+          <property name="java.version" value="1.8.0_131" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="E:\Drugs\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="test.reports" value="E:\Drugs\reports" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.131-b11" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\apache-ant-1.9.4\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="sun.stdout.encoding" value="cp437" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\prodigy21" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\app\prodigy21\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\BINN;D:\apache-ant-1.9.4\bin;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Java\jdk1.7.0_79\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\lib;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner smoketest.TestSuitedrugs skipNonTests=false filtertrace=false haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Drugs\reports\drugsstage01\TEST-smoketest.TestSuitedrugs.xml crashfile=E:\Drugs\junitvmwatcher1477043235406892084.properties propsfile=E:\Drugs\junit3654988428309559787.properties" />
+
+          <property name="java.class.path" value="E:\Drugs\lib\selenium-2.46.0\selenium-java-2.53.0-srcs.jar;E:\Drugs\lib\selenium-2.46.0\selenium-java-2.53.0.jar;E:\Drugs\lib\selenium-2.46.0\libs\apache-mime4j-0.6.jar;E:\Drugs\lib\selenium-2.46.0\libs\bsh-2.0b4.jar;E:\Drugs\lib\selenium-2.46.0\libs\cglib-nodep-2.1_3.jar;E:\Drugs\lib\selenium-2.46.0\libs\commons-codec-1.10.jar;E:\Drugs\lib\selenium-2.46.0\libs\commons-exec-1.3.jar;E:\Drugs\lib\selenium-2.46.0\libs\commons-io-2.4.jar;E:\Drugs\lib\selenium-2.46.0\libs\commons-logging-1.2.jar;E:\Drugs\lib\selenium-2.46.0\libs\gson-2.3.1.jar;E:\Drugs\lib\selenium-2.46.0\libs\guava-19.0.jar;E:\Drugs\lib\selenium-2.46.0\libs\hamcrest-core-1.3.jar;E:\Drugs\lib\selenium-2.46.0\libs\hamcrest-library-1.3.jar;E:\Drugs\lib\selenium-2.46.0\libs\httpclient-4.5.1.jar;E:\Drugs\lib\selenium-2.46.0\libs\httpcore-4.4.3.jar;E:\Drugs\lib\selenium-2.46.0\libs\httpmime-4.5.jar;E:\Drugs\lib\selenium-2.46.0\libs\jcommander-1.48.jar;E:\Drugs\lib\selenium-2.46.0\libs\jna-4.1.0.jar;E:\Drugs\lib\selenium-2.46.0\libs\jna-platform-4.1.0.jar;E:\Drugs\lib\selenium-2.46.0\libs\junit-4.12.jar;E:\Drugs\lib\selenium-2.46.0\libs\netty-3.5.7.Final.jar;E:\Drugs\lib\selenium-2.46.0\libs\phantomjsdriver-1.2.1.jar;E:\Drugs\lib\selenium-2.46.0\libs\testng-6.9.9.jar;E:\Drugs\build\classes;D:\apache-ant-1.9.4\lib\ant-launcher.jar;D:\apache-ant-1.9.4\lib\ant.jar;D:\apache-ant-1.9.4\lib\ant-junit.jar;D:\apache-ant-1.9.4\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="build.classes" value="E:\Drugs\build\classes" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\PRODIG~1\AppData\Local\Temp\" />
+
+          <property name="test.src" value="E:\Drugs\src" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="test.reports.drugsprod" value="E:\Drugs\reports\drugsprod" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="width" value="1240" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="E:\Drugs" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="E:\Drugs" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="test.reports.drugsstage02" value="E:\Drugs\reports\drugsstage02" />
+
+          <property name="test.reports.drugsstage01" value="E:\Drugs\reports\drugsstage01" />
+
+          <property name="ant.core.lib" value="D:\apache-ant-1.9.4\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="sun.stderr.encoding" value="cp437" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="drugs_stage01" />
+
+      </properties>
+
+      <testcase classname="smoketest.DrugsTest" name="Tabbedarticle" time="27.127" />
+
+      <testcase classname="smoketest.DrugsTest" name="VideoPage" time="18.8" />
+
+      <testcase classname="smoketest.DrugsTest" name="Assessment" time="18.092" />
+
+      <testcase classname="smoketest.DrugsTest" name="TOC" time="27.685" />
+
+      <testcase classname="smoketest.DrugsTest" name="Slideshow" time="13.635" />
+
+      <testcase classname="smoketest.DrugsTest" name="Standardarticle" time="15.387" />
+
+      <system-out><![CDATA[Tabbed Article...
+Title exist on Tabbed Article Page http://hl.drugs.com/health/osteoarthritis/synvisc-supartz
+Written Info exist on Tabbed Article Page http://hl.drugs.com/health/osteoarthritis/synvisc-supartz
+6
+Video Page...
+Title exist on Video Article Page http://hl.drugs.com/health/multiple-sclerosis/primary-progressive-ms-future-research-and-clinical-trials
+Content exist on Health Video page http://hl.drugs.com/health/multiple-sclerosis/primary-progressive-ms-future-research-and-clinical-trials
+Assessment Page...
+Disclaimer exist on Assessment Page http://hl.drugs.com/health-assessments/do-you-have-the-right-psoriasis-doctor
+Title exist on Assessment Page http://hl.drugs.com/health-assessments/do-you-have-the-right-psoriasis-doctor
+Video thumbanail is displayed on Assessment pagehttp://hl.drugs.com/health-assessments/do-you-have-the-right-psoriasis-doctor
+Start Here button is displayed on Assessment pagehttp://hl.drugs.com/health-assessments/do-you-have-the-right-psoriasis-doctor
+view table of contents is displayed on Assessment Pagehttp://hl.drugs.com/health-assessments/do-you-have-the-right-psoriasis-doctor
+progress bar is displayed on Assessment Pagehttp://hl.drugs.com/health-assessments/do-you-have-the-right-psoriasis-doctor
+Topic Center Page...
+Title exist on TOC Page http://hl.drugs.com/health/multiple-sclerosis/managing
+http://hl-stage.drugs.com/hlcmsresource/images/topic_centers/multiple_sclerosis/194x105_MSEventpage_banner-1.jpg
+Centerwell Links working fine from TOC Page
+http://hl-stage.drugs.com/hlcmsresource/images/topic_centers/multiple_sclerosis/194x105_Herbs_Supplements_for_MS.jpg
+Centerwell Links working fine from TOC Page
+Slideshow Page...
+Title exist on Slideshow Page http://hl.drugs.com/health-slideshow/top-ms-events-around-the-country
+Disclaimer exist on Slideshow Page http://hl.drugs.com/health-slideshow/top-ms-events-around-the-country
+Standard Article Page...
+Written Info exist on Standard Article Page http://hl.drugs.com/health/bipolar-disorder/stress-anxiety
+Title exist on Standard Article Page http://hl.drugs.com/health/bipolar-disorder/stress-anxiety
+]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 19639
+Only local connections are allowed.
+]]></system-err>
+
+  </testsuite>
+</testsuites>
